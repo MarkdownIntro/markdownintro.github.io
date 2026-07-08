@@ -30,7 +30,7 @@ Không phải Markdown editor. Đây là <b>hệ điều hành tài liệu</b> c
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/images/MarkdownOffice.jpg" class="max-h-[420px] w-auto rounded-xl shadow-2xl" alt="MarkdownOffice" />
+<img src="/images/MarkdownOffice.png" class="max-h-[420px] w-auto rounded-xl shadow-2xl" alt="MarkdownOffice" />
 </div>
 
 <!--
