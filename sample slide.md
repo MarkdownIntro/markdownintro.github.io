@@ -22,6 +22,12 @@ transition: slide-left
 comark: true
 # duration of the presentation
 duration: 35min
+# fonts: https://sli.dev/custom/config-fonts
+fonts:
+  sans: 'Segoe UI'
+  serif: 'Segoe UI'
+  # Segoe UI is a system font (not on Google Fonts), so mark it as local to skip web import
+  local: 'Segoe UI'
 ---
 
 # Welcome to Slidev

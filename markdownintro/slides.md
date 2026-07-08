@@ -20,6 +20,11 @@ lineNumbers: false
 drawings:
   persist: false
 transition: slide-left
+fonts:
+  sans: 'Segoe UI'
+  serif: 'Segoe UI'
+  # Segoe UI is a system font (not on Google Fonts), so mark it as local to skip web import
+  local: 'Segoe UI'
 mdc: true
 ---
 
@@ -28,7 +33,7 @@ mdc: true
 ## LLM-first, markdown-native document agent cho enterprise monorepo
 
 <div class="mt-6 text-lg opacity-80 max-w-3xl mx-auto">
-Biến tài liệu doanh nghiệp thành <b>structured · versioned · auditable · machine-readable</b> knowledge — để con người và AI Agent cùng tạo, review, version và tự động hóa.
+Biến tài liệu doanh nghiệp thành <b>structured · versioned · auditable · machine-readable</b> knowledge - để con người và AI Agent cùng tạo, review, version và tự động hóa.
 </div>
 
 <div class="mt-10 flex justify-center gap-3 text-sm">
@@ -89,13 +94,13 @@ layout: section
 ---
 
 # 1 · Nỗi đau tài liệu doanh nghiệp
-Fragmented knowledge — con người mệt mỏi, AI Agent thất bại
+Fragmented knowledge - con người mệt mỏi, AI Agent thất bại
 
 ---
 layout: default
 ---
 
-# Doanh nghiệp không thiếu tài liệu — thiếu hệ điều hành cho tài liệu
+# Doanh nghiệp không thiếu tài liệu - thiếu hệ điều hành cho tài liệu
 
 Cùng một sự thật vận hành bị chia nhỏ và sao chép qua hàng chục công cụ, không có <b>canonical source of truth</b>.
 
@@ -117,16 +122,16 @@ Mỗi loại tri thức nằm ở một nơi khác nhau, với schema, permissio
 
 <div class="mt-4 text-sm">
 
-| Loại thông tin | Nơi thường nằm | Vấn đề khi cần tổng hợp |
-| --- | --- | --- |
-| Report / Spec | Google Docs, Word, PDF | Nhiều bản, không rõ bản mới nhất |
-| Slide | PowerPoint, Google Slides | Copy-paste, dễ stale |
-| Sheet / Data | Excel, Google Sheets | Formula khó audit cross-doc |
-| Task | Jira, Linear, Trello | Tách rời khỏi tài liệu mô tả |
-| Chat context | Slack, Teams | Quyết định chìm trong hội thoại |
-| Decision / Wiki | Notion, Confluence, email | Không có version thật, không owner |
-| Service ownership | Wiki, sheet, tribal knowledge | Mất khi nhân sự nghỉ việc |
-| Incident history | Jira, Slack, postmortem | Rời rạc, khó trace |
+| Loại thông tin    | Nơi thường nằm                | Vấn đề khi cần tổng hợp            |
+| ----------------- | ----------------------------- | ---------------------------------- |
+| Report / Spec     | Google Docs, Word, PDF        | Nhiều bản, không rõ bản mới nhất   |
+| Slide             | PowerPoint, Google Slides     | Copy-paste, dễ stale               |
+| Sheet / Data      | Excel, Google Sheets          | Formula khó audit cross-doc        |
+| Task              | Jira, Linear, Trello          | Tách rời khỏi tài liệu mô tả       |
+| Chat context      | Slack, Teams                  | Quyết định chìm trong hội thoại    |
+| Decision / Wiki   | Notion, Confluence, email     | Không có version thật, không owner |
+| Service ownership | Wiki, sheet, tribal knowledge | Mất khi nhân sự nghỉ việc          |
+| Incident history  | Jira, Slack, postmortem       | Rời rạc, khó trace                 |
 
 </div>
 
@@ -143,7 +148,7 @@ layoutClass: gap-8
 
 <div class="mt-4 flex flex-col gap-3 text-sm">
 <div class="p-3 rounded-lg border border-gray-300 dark:border-gray-600">🔍 <b>Săn lùng thông tin</b><br><span class="opacity-70">Phải mở 6–8 tool để ghép lại một bức tranh.</span></div>
-<div class="p-3 rounded-lg border border-gray-300 dark:border-gray-600">🕰️ <b>Bản cũ vs bản mới</b><br><span class="opacity-70">`final_v2_revised_latest.docx` — không ai chắc.</span></div>
+<div class="p-3 rounded-lg border border-gray-300 dark:border-gray-600">🕰️ <b>Bản cũ vs bản mới</b><br><span class="opacity-70">`final_v2_revised_latest.docx` - không ai chắc.</span></div>
 <div class="p-3 rounded-lg border border-gray-300 dark:border-gray-600">🧠 <b>Tribal knowledge</b><br><span class="opacity-70">Kiến thức nằm trong đầu người, không được ghi lại.</span></div>
 <div class="p-3 rounded-lg border border-gray-300 dark:border-gray-600">🔗 <b>Mất liên kết</b><br><span class="opacity-70">Slide không biết lấy từ sheet nào, report nào.</span></div>
 </div>
@@ -228,7 +233,7 @@ layout: default
 
 # Trạng thái mong muốn: enterprise document monorepo
 
-Một cây tri thức duy nhất — có cấu trúc, có version, có graph, có audit — để người và Agent cùng vận hành.
+Một cây tri thức duy nhất - có cấu trúc, có version, có graph, có audit - để người và Agent cùng vận hành.
 
 <div class="flex justify-center mt-4">
 <img src="./diagrams/document-monorepo.svg" class="w-full max-h-[330px] object-contain" alt="document-monorepo" />
@@ -243,7 +248,7 @@ layout: section
 ---
 
 # 2 · Giới thiệu MarkdownOffice
-Document Operating System — markdown-native, LLM-first
+Document Operating System - markdown-native, LLM-first
 
 ---
 layout: two-cols
@@ -322,8 +327,8 @@ layout: default
 </div>
 
 <div class="grid grid-cols-2 gap-3 text-xs mt-1">
-<div class="px-3 py-1.5 rounded bg-blue-50 dark:bg-blue-900/20">🏛️ <b>Cortexpod</b> — GitHub-like hub cho document + Agent</div>
-<div class="px-3 py-1.5 rounded bg-green-50 dark:bg-green-900/20">🔀 <b>Lob</b> — Git-like version layer cho structured docs</div>
+<div class="px-3 py-1.5 rounded bg-blue-50 dark:bg-blue-900/20">🏛️ <b>Cortexpod</b> - GitHub-like hub cho document + Agent</div>
+<div class="px-3 py-1.5 rounded bg-green-50 dark:bg-green-900/20">🔀 <b>Lob</b> - Git-like version layer cho structured docs</div>
 </div>
 
 <!--
@@ -340,7 +345,7 @@ layoutClass: gap-6
 ## Word-like · Markdown-native
 
 <div class="text-sm mt-2">
-Report · spec · policy · runbook · handover · knowledge base — với source `.mdoc` có block ID.
+Report · spec · policy · runbook · handover · knowledge base - với source `.mdoc` có block ID.
 </div>
 
 ```md
@@ -385,12 +390,12 @@ Không clone toàn bộ Excel ngay. Bắt đầu từ <b>workflow data</b>: stat
 
 <div class="mt-2 text-xs">
 
-| Cột | Vai trò |
-| --- | --- |
-| Service / Owner | ai nắm cái gì |
-| Documentation % | mức tài liệu hóa |
-| Risk Score | crit × complex × gap |
-| Completion % | tiến độ handover |
+| Cột             | Vai trò              |
+| --------------- | -------------------- |
+| Service / Owner | ai nắm cái gì        |
+| Documentation % | mức tài liệu hóa     |
+| Risk Score      | crit × complex × gap |
+| Completion %    | tiến độ handover     |
 
 </div>
 
@@ -419,7 +424,7 @@ layoutClass: gap-6
 ## PowerPoint-like · sinh từ knowledge graph
 
 <div class="text-sm mt-2">
-Deck được <b>generate từ report + sheet + document graph</b> — không còn copy-paste tay.
+Deck được <b>generate từ report + sheet + document graph</b> - không còn copy-paste tay.
 </div>
 
 <div class="mt-3 text-xs flex flex-col gap-1.5">
@@ -446,7 +451,7 @@ Slide không phải endpoint tĩnh, mà là view có version của knowledge pip
 layout: default
 ---
 
-# MarkdownJira — task & workflow gắn với tài liệu
+# MarkdownJira - task & workflow gắn với tài liệu
 
 Task không tách rời tài liệu mô tả nó. Issue là một node trong cùng document graph.
 
@@ -467,7 +472,7 @@ Task không tách rời tài liệu mô tả nó. Issue là một node trong cù
 <div class="p-4 rounded-lg border border-gray-300 dark:border-gray-600">
 <div class="text-2xl">🤖</div>
 <b>Agent-actionable</b><br>
-<span class="opacity-70">Agent đọc task, cập nhật status sheet, mở proposal — có audit.</span>
+<span class="opacity-70">Agent đọc task, cập nhật status sheet, mở proposal - có audit.</span>
 </div>
 
 </div>
@@ -520,7 +525,7 @@ Team Knowledge Health · 12 services · 3 thiếu backup owner · 5 runbook outd
 layout: default
 ---
 
-# MarkdownAgent — AI Agent là first-class actor
+# MarkdownAgent - AI Agent là first-class actor
 
 Agent không phải chatbot bên ngoài tài liệu. Nó làm việc theo <b>transaction</b>, không chỉ "generate text".
 
@@ -543,9 +548,9 @@ Agents propose, humans approve, Lob commits. Đây là cách đưa AI vào enter
 layout: default
 ---
 
-# Cortexpod — GitHub cho enterprise documents & Agents
+# Cortexpod - GitHub cho enterprise documents & Agents
 
-Control plane cho toàn bộ lifecycle của enterprise knowledge — không chỉ lưu file.
+Control plane cho toàn bộ lifecycle của enterprise knowledge - không chỉ lưu file.
 
 <div class="flex justify-center mt-4">
 <img src="./diagrams/cortexpod.svg" class="w-full max-h-[250px] object-contain" alt="cortexpod" />
@@ -559,7 +564,7 @@ Cortexpod hiểu document type, owner, reviewer, status, dependency, stale state
 layout: default
 ---
 
-# Lob — Git-like version management cho tài liệu
+# Lob - Git-like version management cho tài liệu
 
 Git line-diff không đủ. Lob cần <b>block / AST / semantic diff</b> và <b>policy-based merge</b>.
 
@@ -577,12 +582,12 @@ Git line-diff không đủ. Lob cần <b>block / AST / semantic diff</b> và <b>
 ### Diff vượt khỏi line-diff
 <div class="text-xs mt-1">
 
-| Artifact | Diff cần có |
-| --- | --- |
-| MarkdownDoc | section · block · semantic |
-| MarkdownSlide | slide · layout · source |
+| Artifact      | Diff cần có                   |
+| ------------- | ----------------------------- |
+| MarkdownDoc   | section · block · semantic    |
+| MarkdownSlide | slide · layout · source       |
 | MarkdownSheet | row · cell · formula · schema |
-| Agent | reasoning · provenance |
+| Agent         | reasoning · provenance        |
 
 </div>
 <div class="mt-2 px-2 py-1 rounded bg-emerald-50 dark:bg-emerald-900/20 text-xs">
@@ -601,22 +606,22 @@ Lob là "Git for documents + Agent workflow", không phải wrapper của Git.
 layout: default
 ---
 
-# Git-like document operations — mapping
+# Git-like document operations - mapping
 
 <div class="mt-4 text-sm">
 
-| Thế giới hiện tại | MarkdownOffice ecosystem |
-| --- | --- |
-| Microsoft Office / Google Workspace | **MarkdownOffice** |
-| Word · PowerPoint · Excel | MarkdownDoc · Slide · Sheet |
-| GitHub | **Cortexpod** |
-| Git | **Lob** |
-| Pull Request | Agent Proposal / document change request |
-| Commit | Auditable document transaction |
-| Branch | Parallel document/workflow version |
-| Merge | Policy-based reconciliation |
-| Code review | Document / slide / sheet review |
-| Wiki | Living operational knowledge graph |
+| Thế giới hiện tại                   | MarkdownOffice ecosystem                 |
+| ----------------------------------- | ---------------------------------------- |
+| Microsoft Office / Google Workspace | **MarkdownOffice**                       |
+| Word · PowerPoint · Excel           | MarkdownDoc · Slide · Sheet              |
+| GitHub                              | **Cortexpod**                            |
+| Git                                 | **Lob**                                  |
+| Pull Request                        | Agent Proposal / document change request |
+| Commit                              | Auditable document transaction           |
+| Branch                              | Parallel document/workflow version       |
+| Merge                               | Policy-based reconciliation              |
+| Code review                         | Document / slide / sheet review          |
+| Wiki                                | Living operational knowledge graph       |
 
 </div>
 
@@ -630,7 +635,7 @@ layout: default
 
 # Monorepo workspace model
 
-Repository trong Cortexpod không chỉ chứa file — nó hiểu type, owner, dependency, permission.
+Repository trong Cortexpod không chỉ chứa file - nó hiểu type, owner, dependency, permission.
 
 <div class="grid grid-cols-2 gap-6 mt-3">
 
@@ -688,7 +693,7 @@ Create → structure → link → version → agent → export
 layout: default
 ---
 
-# Demo workflow overview — Employee Handover
+# Demo workflow overview - Employee Handover
 
 Use case ROI rõ ràng: giảm knowledge loss, tăng tốc chuyển giao, tạo audit trail.
 
@@ -705,7 +710,7 @@ layout: two-cols
 layoutClass: gap-6
 ---
 
-# Demo · Bước 1 — Authoring document
+# Demo · Bước 1 - Authoring document
 
 <div class="text-sm mt-2">
 Tạo document → cấu trúc bằng Markdown + frontmatter + block ID. Agent scan permission-aware.
@@ -743,7 +748,7 @@ generated_by: HandoverAgent
 </div>
 
 <div class="mt-3 px-2 py-1.5 rounded bg-amber-50 dark:bg-amber-900/20 text-xs">
-⚖️ Agent không tìm kiếm mù — scan theo <b>permission · scope · policy</b>.
+⚖️ Agent không tìm kiếm mù - scan theo <b>permission · scope · policy</b>.
 </div>
 
 </div>
@@ -752,7 +757,7 @@ generated_by: HandoverAgent
 layout: default
 ---
 
-# Demo · Bước 2 — Linking context (document graph)
+# Demo · Bước 2 - Linking context (document graph)
 
 Mỗi tài liệu là một node. Liên kết cho phép impact analysis, stale detection, provenance.
 
@@ -766,14 +771,14 @@ Mỗi tài liệu là một node. Liên kết cho phép impact analysis, stale d
 layout: default
 ---
 
-# Demo · Bước 3 — Versioning & comparison
+# Demo · Bước 3 - Versioning & comparison
 
 Lob so sánh <b>semantic</b>, không chỉ text. Reviewer thấy đúng ý nghĩa thay đổi.
 
 <div class="grid grid-cols-2 gap-6 mt-4 text-xs">
 
 <div class="p-3 rounded-lg border border-gray-300 dark:border-gray-600">
-<div class="font-bold mb-2">📄 MarkdownDoc — section "Known Risks"</div>
+<div class="font-bold mb-2">📄 MarkdownDoc - section "Known Risks"</div>
 <div class="font-mono bg-slate-100 dark:bg-slate-800 p-2 rounded">
 <span class="text-emerald-600">+ Added 2 new risks</span><br>
 <span class="text-rose-500">- Removed outdated deploy warning</span><br>
@@ -783,7 +788,7 @@ Lob so sánh <b>semantic</b>, không chỉ text. Reviewer thấy đúng ý nghĩ
 </div>
 
 <div class="p-3 rounded-lg border border-gray-300 dark:border-gray-600">
-<div class="font-bold mb-2">📊 MarkdownSheet — rows</div>
+<div class="font-bold mb-2">📊 MarkdownSheet - rows</div>
 <div class="font-mono bg-slate-100 dark:bg-slate-800 p-2 rounded">
 ≈ payment-service transfer owner updated<br>
 <span class="text-emerald-600">≈ documentation: 60% → 85%</span><br>
@@ -792,7 +797,7 @@ Lob so sánh <b>semantic</b>, không chỉ text. Reviewer thấy đúng ý nghĩ
 </div>
 
 <div class="p-3 rounded-lg border border-gray-300 dark:border-gray-600 col-span-2">
-<div class="font-bold mb-2">📽️ MarkdownSlide — slide 7</div>
+<div class="font-bold mb-2">📽️ MarkdownSlide - slide 7</div>
 <div class="font-mono bg-slate-100 dark:bg-slate-800 p-2 rounded">
 ≈ risk chart updated · source sheet v12 → v13 · speaker note regenerated · <span class="text-emerald-600">slide marked reviewed</span>
 </div>
@@ -808,7 +813,7 @@ Merge theo policy: legal content cần legal reviewer, financial number cần fi
 layout: default
 ---
 
-# Demo · Bước 4 — Agent-assisted editing (proposal)
+# Demo · Bước 4 - Agent-assisted editing (proposal)
 
 Agent proposal ≈ Pull Request cho document/slide/sheet/workflow.
 
@@ -861,7 +866,7 @@ layout: section
 ---
 
 # 4 · Agent workflow integration
-Harness Engineering — biến reasoning engine thành agent đáng tin
+Harness Engineering - biến reasoning engine thành agent đáng tin
 
 ---
 layout: two-cols
@@ -901,7 +906,7 @@ Muốn agent đáng tin hơn: đầu tư đầu tiên không phải đổi model
 layout: default
 ---
 
-# Agentic loop — vòng lặp cốt lõi
+# Agentic loop - vòng lặp cốt lõi
 
 Harness engineering = thiết kế & kiểm soát vòng lặp này, không phải viết prompt hay.
 
@@ -928,15 +933,15 @@ while not done:
 
 <div class="text-xs">
 
-| Dòng loop | Primitive |
-| --- | --- |
-| load_policy_and_task | **Instructions** |
+| Dòng loop                 | Primitive                 |
+| ------------------------- | ------------------------- |
+| load_policy_and_task      | **Instructions**          |
 | retrieve_relevant_context | **Context Delivery/Mgmt** |
-| execute_in_sandbox | **Tools + Execution Env** |
-| update_state | **Durable State** |
-| toàn vòng lặp | **Orchestration** |
-| verify | **Verification** |
-| mọi bước | **Observability** |
+| execute_in_sandbox        | **Tools + Execution Env** |
+| update_state              | **Durable State**         |
+| toàn vòng lặp             | **Orchestration**         |
+| verify                    | **Verification**          |
+| mọi bước                  | **Observability**         |
 
 </div>
 
@@ -949,7 +954,7 @@ layout: two-cols
 layoutClass: gap-6
 ---
 
-# Instructions — policy layer
+# Instructions - policy layer
 
 <div class="text-sm mt-2">
 
@@ -957,12 +962,12 @@ Không phải "system prompt dài". Là <b>policy layer</b> có thứ bậc đ�
 
 <div class="mt-2 text-xs">
 
-| Lớp | Ưu tiên |
-| --- | --- |
-| Safety instruction | 🔴 cao nhất |
-| System instruction | 🟠 nền tảng |
-| Developer / Tool | 🟡 cấu hình |
-| User / Task | 🟢 theo lần gọi |
+| Lớp                | Ưu tiên        |
+| ------------------ | -------------- |
+| Safety instruction | 🔴 cao nhất     |
+| System instruction | 🟠 nền tảng     |
+| Developer / Tool   | 🟡 cấu hình     |
+| User / Task        | 🟢 theo lần gọi |
 
 </div>
 
@@ -1017,11 +1022,11 @@ layout: two-cols
 layoutClass: gap-6
 ---
 
-# Context management — chống drift
+# Context management - chống drift
 
 <div class="text-sm mt-2">
 
-Duy trì tập trung xuyên suốt task dài — khác về bản chất với context delivery.
+Duy trì tập trung xuyên suốt task dài - khác về bản chất với context delivery.
 
 <div class="mt-2 flex flex-col gap-1.5 text-xs">
 <div class="px-2 py-1 rounded bg-violet-50 dark:bg-violet-900/20">🪟 Sliding window · working memory</div>
@@ -1053,14 +1058,14 @@ layout: default
 <div class="flex flex-col items-center">
 <img src="/content/4.%20Tool%20Interface.png" class="max-h-[210px] w-auto rounded-lg shadow-lg" alt="Tool Interface" />
 <div class="mt-2 text-xs text-center">
-<b>Tool Interface</b> — typed schema · validate input · structured output · <b>tách read/write</b> · human confirm cho irreversible
+<b>Tool Interface</b> - typed schema · validate input · structured output · <b>tách read/write</b> · human confirm cho irreversible
 </div>
 </div>
 
 <div class="flex flex-col items-center">
 <img src="/content/5.%20Execution%20Environment.png" class="max-h-[210px] w-auto rounded-lg shadow-lg" alt="Execution Environment" />
 <div class="mt-2 text-xs text-center">
-<b>Execution Env</b> — sandbox · permission boundary · secret mgmt · resource quota · deterministic replay
+<b>Execution Env</b> - sandbox · permission boundary · secret mgmt · resource quota · deterministic replay
 </div>
 </div>
 
@@ -1087,14 +1092,14 @@ State là "sự thật về tiến trình", context là "cái model thấy ngay 
 
 <div class="mt-2 text-xs">
 
-| Loại dữ liệu | Storage |
-| --- | --- |
-| Workflow state | DB có transaction |
-| Artifact | Object storage |
+| Loại dữ liệu      | Storage                 |
+| ----------------- | ----------------------- |
+| Workflow state    | DB có transaction       |
+| Artifact          | Object storage          |
 | Hành động/sự kiện | Event log (append-only) |
-| Semantic memory | Vector DB |
-| Audit trail | Immutable log |
-| Rollback state | Versioned store |
+| Semantic memory   | Vector DB               |
+| Audit trail       | Immutable log           |
+| Rollback state    | Versioned store         |
 
 </div>
 
@@ -1149,7 +1154,7 @@ layout: two-cols
 layoutClass: gap-6
 ---
 
-# Skills — procedures tái sử dụng
+# Skills - procedures tái sử dụng
 
 <div class="text-sm mt-2">
 
@@ -1223,15 +1228,15 @@ Từng primitive của Harness Engineering có một chỗ đứng cụ thể tr
 
 <div class="mt-4 text-sm">
 
-| Harness primitive | Hiện thân trong MarkdownOffice |
-| --- | --- |
-| Instructions (policy layer) | Permission scope + document policy + workflow template |
-| Context delivery | Document graph retrieval, permission-aware, structured blocks |
-| Tool interface (read/write tách biệt) | Read = query graph · Write = **Agent proposal** |
-| Execution environment | Cortexpod agent workspace (scoped, sandboxed) |
-| Durable state | **Lob** version + transaction store |
-| Verification | Validation + policy check + human review |
-| Observability / Audit | Audit trail per repo/doc/section/block |
+| Harness primitive                     | Hiện thân trong MarkdownOffice                                |
+| ------------------------------------- | ------------------------------------------------------------- |
+| Instructions (policy layer)           | Permission scope + document policy + workflow template        |
+| Context delivery                      | Document graph retrieval, permission-aware, structured blocks |
+| Tool interface (read/write tách biệt) | Read = query graph · Write = **Agent proposal**               |
+| Execution environment                 | Cortexpod agent workspace (scoped, sandboxed)                 |
+| Durable state                         | **Lob** version + transaction store                           |
+| Verification                          | Validation + policy check + human review                      |
+| Observability / Audit                 | Audit trail per repo/doc/section/block                        |
 
 </div>
 
@@ -1250,7 +1255,7 @@ layout: default
 
 # Kiến trúc memory của Agent
 
-Một agent mạnh không chỉ cần LLM tốt — cần một <b>memory workflow</b> tốt.
+Một agent mạnh không chỉ cần LLM tốt - cần một <b>memory workflow</b> tốt.
 
 <div class="flex justify-center mt-3">
 <img src="./diagrams/memory-architecture.svg" class="w-full max-h-[240px] object-contain" alt="memory-architecture" />
@@ -1327,9 +1332,9 @@ Lịch sử tương tác & hành động theo timeline.
 
 ### Vai trò
 <div class="mt-2 flex flex-col gap-1.5 text-xs">
-<div class="px-2 py-1 rounded bg-orange-50 dark:bg-orange-900/20">👤 Personalization — nhớ lịch sử user</div>
-<div class="px-2 py-1 rounded bg-orange-50 dark:bg-orange-900/20">🔗 Continuity — tiếp tục project cũ</div>
-<div class="px-2 py-1 rounded bg-orange-50 dark:bg-orange-900/20">🐞 Debugging — biết agent đã làm gì</div>
+<div class="px-2 py-1 rounded bg-orange-50 dark:bg-orange-900/20">👤 Personalization - nhớ lịch sử user</div>
+<div class="px-2 py-1 rounded bg-orange-50 dark:bg-orange-900/20">🔗 Continuity - tiếp tục project cũ</div>
+<div class="px-2 py-1 rounded bg-orange-50 dark:bg-orange-900/20">🐞 Debugging - biết agent đã làm gì</div>
 <div class="px-2 py-1 rounded bg-orange-50 dark:bg-orange-900/20">📚 Learning from experience</div>
 <div class="px-2 py-1 rounded bg-orange-50 dark:bg-orange-900/20">🗂️ Auditability</div>
 </div>
@@ -1372,17 +1377,17 @@ Knowledge base: facts, concepts, relationships, rules.
 ### Episodic vs Semantic
 <div class="mt-2 text-xs">
 
-| Episodic | Semantic |
-| --- | --- |
-| Gắn sự kiện | Gắn tri thức |
-| Có thời gian | Không cần thời gian |
-| "Tôi đã làm gì?" | "Tôi biết gì?" |
-| Log / timeline | Knowledge graph |
+| Episodic         | Semantic            |
+| ---------------- | ------------------- |
+| Gắn sự kiện      | Gắn tri thức        |
+| Có thời gian     | Không cần thời gian |
+| "Tôi đã làm gì?" | "Tôi biết gì?"      |
+| Log / timeline   | Knowledge graph     |
 
 </div>
 
 <div class="mt-3 px-2 py-1.5 rounded bg-blue-50 dark:bg-blue-900/20 text-xs">
-→ Trong MarkdownOffice: chính là <b>document graph</b> — world model của tổ chức.
+→ Trong MarkdownOffice: chính là <b>document graph</b> - world model của tổ chức.
 </div>
 
 </div>
@@ -1418,8 +1423,8 @@ Workflow: Fix bug in codebase
 
 ### Vai trò
 <div class="mt-2 flex flex-col gap-1.5 text-xs">
-<div class="px-2 py-1 rounded bg-green-50 dark:bg-green-900/20">♻️ Reusability — không nghĩ lại từ đầu</div>
-<div class="px-2 py-1 rounded bg-green-50 dark:bg-green-900/20">📏 Consistency — quy trình ổn định</div>
+<div class="px-2 py-1 rounded bg-green-50 dark:bg-green-900/20">♻️ Reusability - không nghĩ lại từ đầu</div>
+<div class="px-2 py-1 rounded bg-green-50 dark:bg-green-900/20">📏 Consistency - quy trình ổn định</div>
 <div class="px-2 py-1 rounded bg-green-50 dark:bg-green-900/20">🎓 Skill acquisition</div>
 <div class="px-2 py-1 rounded bg-green-50 dark:bg-green-900/20">🤝 Multi-agent orchestration</div>
 </div>
@@ -1455,7 +1460,7 @@ Wedge · GTM · roadmap · platform vision
 layout: default
 ---
 
-# Product strategy — target users & wedge
+# Product strategy - target users & wedge
 
 <div class="grid grid-cols-2 gap-6 mt-3">
 
@@ -1464,13 +1469,13 @@ layout: default
 ### 🎯 Target users
 <div class="mt-2 text-xs">
 
-| Đối tượng | Cần gì | MarkdownOffice cấp |
-| --- | --- | --- |
-| User phổ thông | UI giống Office | Doc/Slide/Sheet viewer |
-| Engineer | Markdown · diff · version | Source · AST · Lob |
-| Manager | Report · approval | Dashboard · proposal |
-| AI Agent | Structured context | AST · graph · metadata |
-| Enterprise | Security · audit | Permission · policy |
+| Đối tượng      | Cần gì                    | MarkdownOffice cấp     |
+| -------------- | ------------------------- | ---------------------- |
+| User phổ thông | UI giống Office           | Doc/Slide/Sheet viewer |
+| Engineer       | Markdown · diff · version | Source · AST · Lob     |
+| Manager        | Report · approval         | Dashboard · proposal   |
+| AI Agent       | Structured context        | AST · graph · metadata |
+| Enterprise     | Security · audit          | Permission · policy    |
 
 </div>
 
@@ -1480,7 +1485,7 @@ layout: default
 
 ### 🪓 Enterprise wedge
 <div class="mt-2 flex flex-col gap-1.5 text-xs">
-<div class="px-2 py-1 rounded bg-indigo-50 dark:bg-indigo-900/20"><b>Employee handover</b> — ROI rõ, pain thật</div>
+<div class="px-2 py-1 rounded bg-indigo-50 dark:bg-indigo-900/20"><b>Employee handover</b> - ROI rõ, pain thật</div>
 <div class="px-2 py-1 rounded bg-indigo-50 dark:bg-indigo-900/20">Structured report generation</div>
 <div class="px-2 py-1 rounded bg-indigo-50 dark:bg-indigo-900/20">Incident review · onboarding</div>
 </div>
@@ -1516,7 +1521,7 @@ layout: default
 <div class="p-4 rounded-lg border border-gray-300 dark:border-gray-600">
 <div class="text-2xl">🔒</div>
 <b>Lock-in giá trị</b><br>
-<span class="opacity-70 text-xs">System of record cho organizational knowledge — càng dùng càng khó rời.</span>
+<span class="opacity-70 text-xs">System of record cho organizational knowledge - càng dùng càng khó rời.</span>
 </div>
 
 </div>
@@ -1534,7 +1539,7 @@ layout: default
 </div>
 
 <!--
-Monetizable through permission, audit, compliance, workflow và agent governance — không chỉ "AI editor".
+Monetizable through permission, audit, compliance, workflow và agent governance - không chỉ "AI editor".
 -->
 
 ---
@@ -1554,7 +1559,7 @@ layout: two-cols
 layoutClass: gap-6
 ---
 
-# The ratchet loop — harness evolution
+# The ratchet loop - harness evolution
 
 <div class="text-sm mt-2">
 
@@ -1562,13 +1567,13 @@ Từ <b>demo agent</b> → <b>production agent</b> là khoảng cách của cả
 
 <div class="mt-2 text-xs">
 
-| Demo agent | Production agent |
-| --- | --- |
-| Prompt dài = "não" | Instruction hierarchy |
-| Tool không validate | Typed schema |
+| Demo agent          | Production agent          |
+| ------------------- | ------------------------- |
+| Prompt dài = "não"  | Instruction hierarchy     |
+| Tool không validate | Typed schema              |
 | Không durable state | Resume · audit · rollback |
-| Không verification | Verification bắt buộc |
-| Quyền rộng | Least privilege |
+| Không verification  | Verification bắt buộc     |
+| Quyền rộng          | Least privilege           |
 
 </div>
 
@@ -1589,11 +1594,11 @@ layout: two-cols
 layoutClass: gap-6
 ---
 
-# Diagnostic matrix — debug theo layer
+# Diagnostic matrix - debug theo layer
 
 <div class="text-sm mt-2">
 
-Khi agent lỗi trong production, câu hỏi đầu tiên: <b>"lỗi này thuộc layer nào?"</b> — không mặc định đổ lỗi cho model.
+Khi agent lỗi trong production, câu hỏi đầu tiên: <b>"lỗi này thuộc layer nào?"</b> - không mặc định đổ lỗi cho model.
 
 <div class="mt-2 flex flex-col gap-1 text-xs">
 <div class="px-2 py-1 rounded bg-slate-100 dark:bg-slate-800">Instruction conflict → Instruction layer</div>
@@ -1618,20 +1623,20 @@ layout: default
 # Final vision
 
 <div class="text-center mt-3 text-lg opacity-90 max-w-3xl mx-auto">
-Tương lai của tài liệu doanh nghiệp là <b>structured · versioned · Agent-native</b> — nơi con người và AI Agent cùng tạo, review, version, trình bày và tự động hóa.
+Tương lai của tài liệu doanh nghiệp là <b>structured · versioned · Agent-native</b> - nơi con người và AI Agent cùng tạo, review, version, trình bày và tự động hóa.
 </div>
 
 <div class="mt-6 flex justify-center">
 <div class="inline-block text-sm">
 
-| Before | After |
-| --- | --- |
-| Scattered files | Centralized document monorepo |
-| Manual copy-paste | Graph-driven generation |
-| Weak versioning | Lob-backed transactions |
-| Human-only editing | Human + Agent collaboration |
-| Static slide | Source-linked presentation |
-| Unclear audit | Full traceability |
+| Before             | After                         |
+| ------------------ | ----------------------------- |
+| Scattered files    | Centralized document monorepo |
+| Manual copy-paste  | Graph-driven generation       |
+| Weak versioning    | Lob-backed transactions       |
+| Human-only editing | Human + Agent collaboration   |
+| Static slide       | Source-linked presentation    |
+| Unclear audit      | Full traceability             |
 
 </div>
 </div>
@@ -1649,7 +1654,7 @@ layout: center
 class: text-center
 ---
 
-# Cảm ơn — Q&A
+# Cảm ơn - Q&A
 
 <div class="mt-4 text-lg opacity-80 max-w-2xl mx-auto">
 MarkdownOffice: LLM-first, markdown-native document agent cho enterprise monorepo.
@@ -1666,5 +1671,5 @@ Rất mong nhận câu hỏi về kiến trúc, agent workflow, memory substrate
 </div>
 
 <!--
-Kết deck: mời thảo luận. Nhấn mạnh MarkdownOffice là category mới — AI-native document operating system.
--->
+Kết deck: mời thảo luận. Nhấn mạnh MarkdownOffice là category mới - AI-native document operating system.
+--> 
