@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 250" width="380" height="250" font-family="ui-sans-serif, system-ui">
+  <g font-size="12" text-anchor="middle">
+    <rect x="40" y="6"   width="300" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/><text x="190" y="26">Doc · Slide · Sheet (surfaces)</text>
+    <rect x="40" y="42"  width="300" height="30" rx="6" fill="#ede9fe" stroke="#8b5cf6"/><text x="190" y="62">Rendering Layer</text>
+    <rect x="40" y="78"  width="300" height="30" rx="6" fill="#f0fdfa" stroke="#14b8a6"/><text x="190" y="98">AST + Domain Model</text>
+    <rect x="40" y="114" width="300" height="30" rx="6" fill="#f0fdfa" stroke="#14b8a6"/><text x="190" y="134">Document Graph</text>
+    <rect x="40" y="150" width="300" height="30" rx="6" fill="#dcfce7" stroke="#22c55e"/><text x="190" y="170">Lob · Version Management</text>
+    <rect x="40" y="186" width="300" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/><text x="190" y="206">Cortexpod · Repository Hub</text>
+    <rect x="40" y="222" width="300" height="24" rx="6" fill="#fef3c7" stroke="#f59e0b"/><text x="190" y="238" font-size="11">Permission · Audit · Compliance</text>
+  </g>
+</svg>

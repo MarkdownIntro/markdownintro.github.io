@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" font-family="ui-sans-serif, system-ui">
+  <defs>
+    <marker id="arMem" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#6366f1"/></marker>
+  </defs>
+  <g font-size="12" text-anchor="middle">
+    <rect x="20"  y="100" width="120" height="46" rx="8" fill="#f1f5f9" stroke="#94a3b8"/><text x="80" y="122">Observation</text><text x="80" y="138" font-size="10" fill="#64748b">input</text>
+    <rect x="170" y="100" width="130" height="46" rx="8" fill="#e0e7ff" stroke="#6366f1"/><text x="235" y="122">Working memory</text><text x="235" y="138" font-size="10" fill="#6366f1">context state</text>
+    <rect x="330" y="100" width="130" height="46" rx="8" fill="#ede9fe" stroke="#8b5cf6"/><text x="395" y="122">Reason / Plan</text>
+    <rect x="490" y="100" width="130" height="46" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="555" y="122">Action / Tool</text>
+    <rect x="650" y="100" width="120" height="46" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="710" y="122">Reflect</text>
+    <rect x="800" y="100" width="90" height="46" rx="8" fill="#dcfce7" stroke="#22c55e"/><text x="845" y="122">Update</text>
+
+    <rect x="300" y="10" width="130" height="34" rx="8" fill="#fff7ed" stroke="#fb923c"/><text x="365" y="31">Episodic</text>
+    <rect x="450" y="10" width="130" height="34" rx="8" fill="#eff6ff" stroke="#3b82f6"/><text x="515" y="31">Semantic</text>
+    <rect x="600" y="10" width="130" height="34" rx="8" fill="#f0fdf4" stroke="#22c55e"/><text x="665" y="31">Procedural</text>
+  </g>
+  <g stroke="#6366f1" stroke-width="1.5" fill="none" marker-end="url(#arMem)">
+    <line x1="140" y1="123" x2="168" y2="123"/>
+    <line x1="300" y1="123" x2="328" y2="123"/>
+    <line x1="460" y1="123" x2="488" y2="123"/>
+    <line x1="620" y1="123" x2="648" y2="123"/>
+    <line x1="770" y1="123" x2="798" y2="123"/>
+    <path d="M365,44 L385,98" stroke-dasharray="4 3"/>
+    <path d="M515,44 L410,98" stroke-dasharray="4 3"/>
+    <path d="M665,44 L420,98" stroke-dasharray="4 3"/>
+    <path d="M845,146 C845,210 400,215 235,215 L235,148" />
+  </g>
+  <text x="500" y="235" text-anchor="middle" font-size="10" fill="#94a3b8">consolidation: episodic → semantic · repeated success → procedural</text>
+</svg>

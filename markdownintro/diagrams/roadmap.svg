@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="920" height="220" font-family="ui-sans-serif, system-ui">
+  <line x1="40" y1="110" x2="880" y2="110" stroke="#cbd5e1" stroke-width="3"/>
+  <g font-size="10.5" text-anchor="middle">
+    <g>
+      <circle cx="90" cy="110" r="9" fill="#6366f1"/><text x="90" y="80" font-weight="700">Phase 1</text>
+      <text x="90" y="140">MarkdownDoc</text><text x="90" y="154" fill="#64748b">AST · version</text>
+    </g>
+    <g>
+      <circle cx="230" cy="110" r="9" fill="#6366f1"/><text x="230" y="80" font-weight="700">Phase 2</text>
+      <text x="230" y="140">Cortexpod</text><text x="230" y="154" fill="#64748b">repo · proposal</text>
+    </g>
+    <g>
+      <circle cx="370" cy="110" r="9" fill="#8b5cf6"/><text x="370" y="80" font-weight="700">Phase 3</text>
+      <text x="370" y="140">MarkdownSlide</text><text x="370" y="154" fill="#64748b">generation</text>
+    </g>
+    <g>
+      <circle cx="510" cy="110" r="9" fill="#8b5cf6"/><text x="510" y="80" font-weight="700">Phase 4</text>
+      <text x="510" y="140">MarkdownSheet</text><text x="510" y="154" fill="#64748b">workflow tables</text>
+    </g>
+    <g>
+      <circle cx="650" cy="110" r="9" fill="#14b8a6"/><text x="650" y="80" font-weight="700">Phase 5</text>
+      <text x="650" y="140">Document graph</text><text x="650" y="154" fill="#64748b">+ automation</text>
+    </g>
+    <g>
+      <circle cx="810" cy="110" r="9" fill="#22c55e"/><text x="810" y="80" font-weight="700">Phase 6</text>
+      <text x="810" y="140">Enterprise</text><text x="810" y="154" fill="#64748b">permission · audit</text>
+    </g>
+  </g>
+</svg>

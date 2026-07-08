@@ -100,42 +100,7 @@ layout: default
 Cùng một sự thật vận hành bị chia nhỏ và sao chép qua hàng chục công cụ, không có <b>canonical source of truth</b>.
 
 <div class="mt-4 flex justify-center">
-<svg viewBox="0 0 920 300" class="w-full max-h-[300px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="ar1" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#94a3b8"/></marker>
-  </defs>
-  <!-- scattered tools -->
-  <g font-size="13" text-anchor="middle">
-    <g>
-      <rect x="20" y="20" width="130" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="85" y="42">Google Docs</text>
-      <rect x="20" y="70" width="130" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="85" y="92">PowerPoint</text>
-      <rect x="20" y="120" width="130" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="85" y="142">Excel / Sheets</text>
-      <rect x="20" y="170" width="130" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="85" y="192">Slack / Teams</text>
-      <rect x="20" y="220" width="130" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="85" y="242">Jira / Linear</text>
-    </g>
-    <g>
-      <rect x="180" y="45" width="130" height="34" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="245" y="67">Confluence</text>
-      <rect x="180" y="120" width="130" height="34" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="245" y="142">Email</text>
-      <rect x="180" y="195" width="130" height="34" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="245" y="217">Code repo / README</text>
-    </g>
-    <g>
-      <rect x="340" y="70" width="130" height="34" rx="8" fill="#fffbeb" stroke="#f59e0b"/><text x="405" y="92">File server</text>
-      <rect x="340" y="170" width="130" height="34" rx="8" fill="#fffbeb" stroke="#f59e0b"/><text x="405" y="192">Local laptop</text>
-    </g>
-  </g>
-  <!-- arrows to void -->
-  <g stroke="#94a3b8" stroke-width="1.5" marker-end="url(#ar1)" fill="none">
-    <path d="M472,90 C560,110 560,120 610,135"/>
-    <path d="M472,187 C560,170 560,160 610,150"/>
-    <path d="M312,62 C520,70 540,120 610,135"/>
-    <path d="M312,212 C520,205 540,160 610,150"/>
-  </g>
-  <!-- void -->
-  <circle cx="720" cy="145" r="95" fill="#fef2f2" stroke="#ef4444" stroke-dasharray="6 5"/>
-  <text x="720" y="130" text-anchor="middle" font-size="20" fill="#b91c1c" font-weight="700">Fragmented</text>
-  <text x="720" y="158" text-anchor="middle" font-size="20" fill="#b91c1c" font-weight="700">Knowledge</text>
-  <text x="720" y="185" text-anchor="middle" font-size="12" fill="#ef4444">No source of truth</text>
-</svg>
+<img src="./diagrams/fragmented-tools.svg" class="w-full max-h-[300px] object-contain" alt="fragmented-tools" />
 </div>
 
 <!--
@@ -252,34 +217,7 @@ layout: default
 # Trạng thái hiện tại: document chaos
 
 <div class="flex justify-center mt-6">
-<svg viewBox="0 0 920 360" class="w-full max-h-[360px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="arChaos" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#cbd5e1"/></marker>
-  </defs>
-  <!-- messy web of duplicated docs -->
-  <g font-size="12" text-anchor="middle">
-    <rect x="60" y="40" width="120" height="30" rx="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="120" y="60">report_v1.docx</text>
-    <rect x="330" y="30" width="130" height="30" rx="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="395" y="50">report_final.pdf</text>
-    <rect x="640" y="55" width="150" height="30" rx="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="715" y="75">report_FINAL_v2.docx</text>
-    <rect x="120" y="150" width="120" height="30" rx="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="180" y="170">deck.pptx</text>
-    <rect x="420" y="170" width="140" height="30" rx="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="490" y="190">deck-copy.pptx</text>
-    <rect x="700" y="185" width="140" height="30" rx="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="770" y="205">slack thread</text>
-    <rect x="70" y="270" width="140" height="30" rx="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="140" y="290">tracker.xlsx</text>
-    <rect x="360" y="290" width="150" height="30" rx="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="435" y="310">email attachment</text>
-    <rect x="620" y="290" width="150" height="30" rx="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="695" y="310">jira comment</text>
-  </g>
-  <g stroke="#cbd5e1" stroke-width="1.3" fill="none" marker-end="url(#arChaos)">
-    <path d="M180,55 C260,55 280,45 330,45"/>
-    <path d="M460,45 C560,45 580,60 640,70"/>
-    <path d="M180,70 C200,110 190,130 190,150"/>
-    <path d="M240,165 C330,165 350,180 420,185"/>
-    <path d="M560,185 C630,190 650,195 700,200"/>
-    <path d="M140,180 C140,220 140,240 140,270"/>
-    <path d="M210,285 C290,290 300,300 360,305"/>
-    <path d="M510,305 C560,305 580,300 620,300"/>
-    <path d="M770,215 C780,250 740,275 695,290"/>
-  </g>
-</svg>
+<img src="./diagrams/document-chaos.svg" class="w-full max-h-[360px] object-contain" alt="document-chaos" />
 </div>
 
 <div class="text-center text-sm opacity-70 -mt-2">Sao chép chồng chéo · liên kết mờ · không version · không owner · không audit</div>
@@ -293,36 +231,7 @@ layout: default
 Một cây tri thức duy nhất — có cấu trúc, có version, có graph, có audit — để người và Agent cùng vận hành.
 
 <div class="flex justify-center mt-4">
-<svg viewBox="0 0 900 340" class="w-full max-h-[330px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="arMono" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#6366f1"/></marker>
-  </defs>
-  <rect x="330" y="20" width="240" height="46" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
-  <text x="450" y="42" text-anchor="middle" font-size="15" font-weight="700" fill="#3730a3">company-knowledge</text>
-  <text x="450" y="59" text-anchor="middle" font-size="11" fill="#6366f1">document monorepo · single source of truth</text>
-
-  <g font-size="12.5" text-anchor="middle">
-    <rect x="60"  y="140" width="150" height="40" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="135" y="158">/services</text><text x="135" y="173" font-size="10" fill="#0d9488">*.mdoc</text>
-    <rect x="235" y="140" width="150" height="40" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="310" y="158">/runbooks</text><text x="310" y="173" font-size="10" fill="#0d9488">*.mdoc</text>
-    <rect x="410" y="140" width="150" height="40" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="485" y="158">/sheets</text><text x="485" y="173" font-size="10" fill="#0d9488">*.msheet</text>
-    <rect x="585" y="140" width="150" height="40" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="660" y="158">/slides</text><text x="660" y="173" font-size="10" fill="#0d9488">*.mslide</text>
-    <rect x="760" y="140" width="120" height="40" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="820" y="158">/decisions</text><text x="820" y="173" font-size="10" fill="#0d9488">ADR</text>
-  </g>
-
-  <g stroke="#6366f1" stroke-width="1.4" fill="none" marker-end="url(#arMono)">
-    <path d="M450,66 C450,90 135,100 135,138"/>
-    <path d="M450,66 C450,95 310,105 310,138"/>
-    <path d="M450,66 L485,138"/>
-    <path d="M450,66 C450,95 660,105 660,138"/>
-    <path d="M450,66 C450,90 820,100 820,138"/>
-  </g>
-
-  <g font-size="12" text-anchor="middle">
-    <rect x="150" y="250" width="160" height="40" rx="20" fill="#fef3c7" stroke="#f59e0b"/><text x="230" y="275">🔐 Permission + Owner</text>
-    <rect x="370" y="250" width="160" height="40" rx="20" fill="#e0e7ff" stroke="#6366f1"/><text x="450" y="275">🕸️ Knowledge Graph</text>
-    <rect x="590" y="250" width="160" height="40" rx="20" fill="#dcfce7" stroke="#22c55e"/><text x="670" y="275">🗂️ Version + Audit</text>
-  </g>
-</svg>
+<img src="./diagrams/document-monorepo.svg" class="w-full max-h-[330px] object-contain" alt="document-monorepo" />
 </div>
 
 <!--
@@ -392,17 +301,7 @@ layout: default
 <div>
 
 ### Kiến trúc phân lớp
-<svg viewBox="0 0 380 250" class="w-full max-h-[240px]" font-family="ui-sans-serif, system-ui">
-  <g font-size="12" text-anchor="middle">
-    <rect x="40" y="6"   width="300" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/><text x="190" y="26">Doc · Slide · Sheet (surfaces)</text>
-    <rect x="40" y="42"  width="300" height="30" rx="6" fill="#ede9fe" stroke="#8b5cf6"/><text x="190" y="62">Rendering Layer</text>
-    <rect x="40" y="78"  width="300" height="30" rx="6" fill="#f0fdfa" stroke="#14b8a6"/><text x="190" y="98">AST + Domain Model</text>
-    <rect x="40" y="114" width="300" height="30" rx="6" fill="#f0fdfa" stroke="#14b8a6"/><text x="190" y="134">Document Graph</text>
-    <rect x="40" y="150" width="300" height="30" rx="6" fill="#dcfce7" stroke="#22c55e"/><text x="190" y="170">Lob · Version Management</text>
-    <rect x="40" y="186" width="300" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/><text x="190" y="206">Cortexpod · Repository Hub</text>
-    <rect x="40" y="222" width="300" height="24" rx="6" fill="#fef3c7" stroke="#f59e0b"/><text x="190" y="238" font-size="11">Permission · Audit · Compliance</text>
-  </g>
-</svg>
+<img src="./diagrams/architecture-layers.svg" class="w-full max-h-[240px] object-contain" alt="architecture-layers" />
 
 </div>
 
@@ -419,34 +318,7 @@ layout: default
 # MarkdownOffice ecosystem map
 
 <div class="flex justify-center mt-2">
-<svg viewBox="0 0 900 330" class="w-full max-h-[300px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="arEco" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#c7d2fe"/></marker>
-  </defs>
-  <circle cx="450" cy="165" r="66" fill="#4f46e5"/>
-  <text x="450" y="160" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Markdown</text>
-  <text x="450" y="180" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Office</text>
-
-  <g stroke="#c7d2fe" stroke-width="2" marker-end="url(#arEco)">
-    <line x1="450" y1="100" x2="450" y2="60"/>
-    <line x1="512" y1="130" x2="600" y2="80"/>
-    <line x1="516" y1="165" x2="620" y2="165"/>
-    <line x1="512" y1="200" x2="600" y2="250"/>
-    <line x1="388" y1="200" x2="300" y2="250"/>
-    <line x1="384" y1="165" x2="280" y2="165"/>
-    <line x1="388" y1="130" x2="300" y2="80"/>
-  </g>
-
-  <g font-size="12.5" text-anchor="middle">
-    <rect x="375" y="16" width="150" height="42" rx="10" fill="#eef2ff" stroke="#6366f1"/><text x="450" y="33" font-weight="700">MarkdownDoc</text><text x="450" y="49" font-size="10" fill="#6366f1">Word · report/spec</text>
-    <rect x="595" y="40" width="150" height="42" rx="10" fill="#eef2ff" stroke="#6366f1"/><text x="670" y="57" font-weight="700">MarkdownSheet</text><text x="670" y="73" font-size="10" fill="#6366f1">Excel · tables</text>
-    <rect x="620" y="144" width="150" height="42" rx="10" fill="#eef2ff" stroke="#6366f1"/><text x="695" y="161" font-weight="700">MarkdownSlide</text><text x="695" y="177" font-size="10" fill="#6366f1">PowerPoint · deck</text>
-    <rect x="595" y="248" width="150" height="42" rx="10" fill="#eef2ff" stroke="#6366f1"/><text x="670" y="265" font-weight="700">MarkdownJira</text><text x="670" y="281" font-size="10" fill="#6366f1">task · workflow</text>
-    <rect x="230" y="248" width="150" height="42" rx="10" fill="#eef2ff" stroke="#6366f1"/><text x="305" y="265" font-weight="700">MarkdownReport</text><text x="305" y="281" font-size="10" fill="#6366f1">exec · dashboard</text>
-    <rect x="130" y="144" width="150" height="42" rx="10" fill="#eef2ff" stroke="#6366f1"/><text x="205" y="161" font-weight="700">MarkdownWorkflow</text><text x="205" y="177" font-size="10" fill="#6366f1">automation</text>
-    <rect x="155" y="40" width="150" height="42" rx="10" fill="#eef2ff" stroke="#6366f1"/><text x="230" y="57" font-weight="700">MarkdownAgent</text><text x="230" y="73" font-size="10" fill="#6366f1">AI actor</text>
-  </g>
-</svg>
+<img src="./diagrams/ecosystem-map.svg" class="w-full max-h-[300px] object-contain" alt="ecosystem-map" />
 </div>
 
 <div class="grid grid-cols-2 gap-3 text-xs mt-1">
@@ -653,26 +525,7 @@ layout: default
 Agent không phải chatbot bên ngoài tài liệu. Nó làm việc theo <b>transaction</b>, không chỉ "generate text".
 
 <div class="flex justify-center mt-4">
-<svg viewBox="0 0 900 190" class="w-full max-h-[180px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="arAg" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#6366f1"/></marker>
-  </defs>
-  <g font-size="12" text-anchor="middle">
-    <rect x="10"  y="70" width="118" height="48" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="69" y="90">Read context</text><text x="69" y="106" font-size="10" fill="#6366f1">(graph, perm)</text>
-    <rect x="150" y="70" width="118" height="48" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="209" y="90">Generate</text><text x="209" y="106" font-size="10" fill="#6366f1">doc/sheet/slide</text>
-    <rect x="290" y="70" width="118" height="48" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="349" y="90">Validate</text><text x="349" y="106" font-size="10" fill="#6366f1">schema/policy</text>
-    <rect x="430" y="70" width="118" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="489" y="90">Open</text><text x="489" y="106" font-size="10" fill="#b45309">proposal</text>
-    <rect x="570" y="70" width="118" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="629" y="90">Human</text><text x="629" y="106" font-size="10" fill="#b45309">review</text>
-    <rect x="710" y="70" width="118" height="48" rx="8" fill="#dcfce7" stroke="#22c55e"/><text x="769" y="90">Lob commit</text><text x="769" y="106" font-size="10" fill="#15803d">+ audit</text>
-  </g>
-  <g stroke="#6366f1" stroke-width="1.6" marker-end="url(#arAg)">
-    <line x1="128" y1="94" x2="148" y2="94"/>
-    <line x1="268" y1="94" x2="288" y2="94"/>
-    <line x1="408" y1="94" x2="428" y2="94"/>
-    <line x1="548" y1="94" x2="568" y2="94"/>
-    <line x1="688" y1="94" x2="708" y2="94"/>
-  </g>
-</svg>
+<img src="./diagrams/agent-loop.svg" class="w-full max-h-[180px] object-contain" alt="agent-loop" />
 </div>
 
 <div class="grid grid-cols-4 gap-2 text-xs mt-3">
@@ -695,32 +548,7 @@ layout: default
 Control plane cho toàn bộ lifecycle của enterprise knowledge — không chỉ lưu file.
 
 <div class="flex justify-center mt-4">
-<svg viewBox="0 0 900 260" class="w-full max-h-[250px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="arCx" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#93c5fd"/></marker>
-  </defs>
-  <circle cx="450" cy="130" r="58" fill="#2563eb"/>
-  <text x="450" y="126" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Cortexpod</text>
-  <text x="450" y="146" text-anchor="middle" font-size="10" fill="#dbeafe">control plane</text>
-  <g stroke="#93c5fd" stroke-width="2" marker-end="url(#arCx)">
-    <line x1="450" y1="72" x2="450" y2="45"/>
-    <line x1="508" y1="105" x2="600" y2="60"/>
-    <line x1="508" y1="130" x2="620" y2="130"/>
-    <line x1="508" y1="155" x2="600" y2="200"/>
-    <line x1="392" y1="155" x2="300" y2="200"/>
-    <line x1="392" y1="130" x2="280" y2="130"/>
-    <line x1="392" y1="105" x2="300" y2="60"/>
-  </g>
-  <g font-size="12" text-anchor="middle">
-    <rect x="385" y="16" width="130" height="34" rx="8" fill="#dbeafe" stroke="#3b82f6"/><text x="450" y="37">Repos</text>
-    <rect x="595" y="38" width="130" height="34" rx="8" fill="#dbeafe" stroke="#3b82f6"/><text x="660" y="59">Proposals</text>
-    <rect x="615" y="113" width="130" height="34" rx="8" fill="#dbeafe" stroke="#3b82f6"/><text x="680" y="134">Reviews</text>
-    <rect x="595" y="188" width="130" height="34" rx="8" fill="#dbeafe" stroke="#3b82f6"/><text x="660" y="209">Agent workspace</text>
-    <rect x="235" y="188" width="130" height="34" rx="8" fill="#dbeafe" stroke="#3b82f6"/><text x="300" y="209">Knowledge graph</text>
-    <rect x="155" y="113" width="130" height="34" rx="8" fill="#dbeafe" stroke="#3b82f6"/><text x="220" y="134">Audit</text>
-    <rect x="175" y="38" width="130" height="34" rx="8" fill="#dbeafe" stroke="#3b82f6"/><text x="240" y="59">Permission</text>
-  </g>
-</svg>
+<img src="./diagrams/cortexpod.svg" class="w-full max-h-[250px] object-contain" alt="cortexpod" />
 </div>
 
 <!--
@@ -740,19 +568,7 @@ Git line-diff không đủ. Lob cần <b>block / AST / semantic diff</b> và <b>
 <div>
 
 ### Commit graph & branch
-<svg viewBox="0 0 400 200" class="w-full max-h-[190px]" font-family="ui-sans-serif, system-ui">
-  <line x1="30" y1="40" x2="370" y2="40" stroke="#cbd5e1" stroke-width="3"/>
-  <line x1="120" y1="40" x2="200" y2="110" stroke="#a78bfa" stroke-width="3"/>
-  <line x1="200" y1="110" x2="320" y2="110" stroke="#a78bfa" stroke-width="3"/>
-  <line x1="320" y1="110" x2="360" y2="40" stroke="#22c55e" stroke-width="3" stroke-dasharray="5 4"/>
-  <g>
-    <circle cx="60" cy="40" r="10" fill="#64748b"/><circle cx="120" cy="40" r="10" fill="#64748b"/><circle cx="250" cy="40" r="10" fill="#64748b"/><circle cx="360" cy="40" r="11" fill="#2563eb"/>
-    <circle cx="200" cy="110" r="10" fill="#8b5cf6"/><circle cx="320" cy="110" r="10" fill="#8b5cf6"/>
-  </g>
-  <text x="60" y="24" font-size="10" text-anchor="middle" fill="#64748b">main</text>
-  <text x="200" y="135" font-size="10" text-anchor="middle" fill="#8b5cf6">handover/v1</text>
-  <text x="360" y="24" font-size="10" text-anchor="middle" fill="#2563eb">merge</text>
-</svg>
+<img src="./diagrams/lob-commit-graph.svg" class="w-full max-h-[190px] object-contain" alt="lob-commit-graph" />
 
 </div>
 
@@ -877,36 +693,7 @@ layout: default
 Use case ROI rõ ràng: giảm knowledge loss, tăng tốc chuyển giao, tạo audit trail.
 
 <div class="flex justify-center mt-3">
-<svg viewBox="0 0 900 250" class="w-full max-h-[240px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="arDemo" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#6366f1"/></marker>
-  </defs>
-  <g font-size="11.5" text-anchor="middle">
-    <rect x="20"  y="20" width="150" height="42" rx="8" fill="#f1f5f9" stroke="#94a3b8"/><text x="95" y="38">Source docs</text><text x="95" y="53" font-size="9.5" fill="#64748b">runbook·incident·task</text>
-    <rect x="210" y="20" width="150" height="42" rx="8" fill="#e0e7ff" stroke="#6366f1"/><text x="285" y="38">Permission-aware</text><text x="285" y="53" font-size="9.5" fill="#6366f1">agent scan</text>
-    <rect x="400" y="20" width="150" height="42" rx="8" fill="#e0e7ff" stroke="#6366f1"/><text x="475" y="38">Document graph</text><text x="475" y="53" font-size="9.5" fill="#6366f1">context</text>
-    <rect x="590" y="20" width="150" height="42" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="665" y="38">MarkdownSheet</text><text x="665" y="53" font-size="9.5" fill="#0d9488">transfer matrix</text>
-
-    <rect x="590" y="105" width="150" height="42" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="665" y="123">MarkdownDoc</text><text x="665" y="138" font-size="9.5" fill="#0d9488">handover report</text>
-    <rect x="400" y="105" width="150" height="42" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="475" y="123">MarkdownSlide</text><text x="475" y="138" font-size="9.5" fill="#0d9488">presentation</text>
-    <rect x="210" y="105" width="150" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="285" y="123">Cortexpod</text><text x="285" y="138" font-size="9.5" fill="#b45309">proposal</text>
-
-    <rect x="210" y="190" width="150" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="285" y="208">Human review</text><text x="285" y="223" font-size="9.5" fill="#b45309">&amp; approval</text>
-    <rect x="400" y="190" width="150" height="42" rx="8" fill="#dcfce7" stroke="#22c55e"/><text x="475" y="208">Lob commit</text>
-    <rect x="590" y="190" width="150" height="42" rx="8" fill="#dcfce7" stroke="#22c55e"/><text x="665" y="208">Audit + graph</text><text x="665" y="223" font-size="9.5" fill="#15803d">update · track</text>
-  </g>
-  <g stroke="#6366f1" stroke-width="1.5" fill="none" marker-end="url(#arDemo)">
-    <line x1="170" y1="41" x2="208" y2="41"/>
-    <line x1="360" y1="41" x2="398" y2="41"/>
-    <line x1="550" y1="41" x2="588" y2="41"/>
-    <path d="M665,62 L665,103"/>
-    <line x1="588" y1="126" x2="552" y2="126"/>
-    <line x1="398" y1="126" x2="362" y2="126"/>
-    <path d="M285,147 L285,188"/>
-    <line x1="360" y1="211" x2="398" y2="211"/>
-    <line x1="550" y1="211" x2="588" y2="211"/>
-  </g>
-</svg>
+<img src="./diagrams/demo-workflow.svg" class="w-full max-h-[240px] object-contain" alt="demo-workflow" />
 </div>
 
 <!--
@@ -970,35 +757,7 @@ layout: default
 Mỗi tài liệu là một node. Liên kết cho phép impact analysis, stale detection, provenance.
 
 <div class="flex justify-center mt-4">
-<svg viewBox="0 0 880 250" class="w-full max-h-[240px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="arGraph" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/></marker>
-  </defs>
-  <g stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arGraph)">
-    <line x1="220" y1="125" x2="60" y2="45"/>
-    <line x1="220" y1="125" x2="60" y2="125"/>
-    <line x1="220" y1="125" x2="60" y2="205"/>
-    <line x1="290" y1="110" x2="440" y2="45"/>
-    <line x1="290" y1="125" x2="440" y2="125"/>
-    <line x1="290" y1="140" x2="440" y2="205"/>
-    <line x1="510" y1="45" x2="660" y2="45"/>
-    <line x1="510" y1="205" x2="660" y2="205"/>
-  </g>
-  <g font-size="11" text-anchor="middle">
-    <rect x="205" y="105" width="90" height="42" rx="10" fill="#4f46e5"/><text x="250" y="122" fill="#fff" font-weight="700">Service</text><text x="250" y="137" fill="#c7d2fe" font-size="9">ownership.mdoc</text>
-
-    <rect x="0"   y="24" width="120" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="60" y="45">Architecture</text>
-    <rect x="0"   y="108" width="120" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="60" y="129">Runbook</text>
-    <rect x="0"   y="188" width="120" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="60" y="209">Incident history</text>
-
-    <rect x="440" y="24" width="120" height="34" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="500" y="45">SLA doc</text>
-    <rect x="440" y="108" width="120" height="34" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="500" y="129">Ownership sheet</text>
-    <rect x="440" y="188" width="120" height="34" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="500" y="209">Monitoring</text>
-
-    <rect x="660" y="24" width="130" height="34" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="725" y="45">Handover slide</text>
-    <rect x="660" y="188" width="130" height="34" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="725" y="209">Dashboard</text>
-  </g>
-</svg>
+<img src="./diagrams/context-graph.svg" class="w-full max-h-[240px] object-contain" alt="context-graph" />
 </div>
 
 <div class="text-center text-sm opacity-70 mt-1">"Nếu owner nghỉ việc → tài liệu nào ảnh hưởng? Slide lấy data từ sheet nào? Sheet đã update sau incident chưa?"</div>
@@ -1494,35 +1253,7 @@ layout: default
 Một agent mạnh không chỉ cần LLM tốt — cần một <b>memory workflow</b> tốt.
 
 <div class="flex justify-center mt-3">
-<svg viewBox="0 0 900 250" class="w-full max-h-[240px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="arMem" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#6366f1"/></marker>
-  </defs>
-  <g font-size="12" text-anchor="middle">
-    <rect x="20"  y="100" width="120" height="46" rx="8" fill="#f1f5f9" stroke="#94a3b8"/><text x="80" y="122">Observation</text><text x="80" y="138" font-size="10" fill="#64748b">input</text>
-    <rect x="170" y="100" width="130" height="46" rx="8" fill="#e0e7ff" stroke="#6366f1"/><text x="235" y="122">Working memory</text><text x="235" y="138" font-size="10" fill="#6366f1">context state</text>
-    <rect x="330" y="100" width="130" height="46" rx="8" fill="#ede9fe" stroke="#8b5cf6"/><text x="395" y="122">Reason / Plan</text>
-    <rect x="490" y="100" width="130" height="46" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="555" y="122">Action / Tool</text>
-    <rect x="650" y="100" width="120" height="46" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="710" y="122">Reflect</text>
-    <rect x="800" y="100" width="90" height="46" rx="8" fill="#dcfce7" stroke="#22c55e"/><text x="845" y="122">Update</text>
-
-    <rect x="300" y="10" width="130" height="34" rx="8" fill="#fff7ed" stroke="#fb923c"/><text x="365" y="31">Episodic</text>
-    <rect x="450" y="10" width="130" height="34" rx="8" fill="#eff6ff" stroke="#3b82f6"/><text x="515" y="31">Semantic</text>
-    <rect x="600" y="10" width="130" height="34" rx="8" fill="#f0fdf4" stroke="#22c55e"/><text x="665" y="31">Procedural</text>
-  </g>
-  <g stroke="#6366f1" stroke-width="1.5" fill="none" marker-end="url(#arMem)">
-    <line x1="140" y1="123" x2="168" y2="123"/>
-    <line x1="300" y1="123" x2="328" y2="123"/>
-    <line x1="460" y1="123" x2="488" y2="123"/>
-    <line x1="620" y1="123" x2="648" y2="123"/>
-    <line x1="770" y1="123" x2="798" y2="123"/>
-    <path d="M365,44 L385,98" stroke-dasharray="4 3"/>
-    <path d="M515,44 L410,98" stroke-dasharray="4 3"/>
-    <path d="M665,44 L420,98" stroke-dasharray="4 3"/>
-    <path d="M845,146 C845,210 400,215 235,215 L235,148" />
-  </g>
-  <text x="500" y="235" text-anchor="middle" font-size="10" fill="#94a3b8">consolidation: episodic → semantic · repeated success → procedural</text>
-</svg>
+<img src="./diagrams/memory-architecture.svg" class="w-full max-h-[240px] object-contain" alt="memory-architecture" />
 </div>
 
 ---
@@ -1708,28 +1439,7 @@ layout: default
 Cả 4 loại memory đều tìm được một "nhà" bền vững, có version và audit trong MarkdownOffice.
 
 <div class="flex justify-center mt-3">
-<svg viewBox="0 0 900 230" class="w-full max-h-[220px]" font-family="ui-sans-serif, system-ui">
-  <defs>
-    <marker id="arSub" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#6366f1"/></marker>
-  </defs>
-  <g font-size="11.5" text-anchor="middle">
-    <rect x="20"  y="20" width="180" height="40" rx="8" fill="#e0e7ff" stroke="#6366f1"/><text x="110" y="37">Working memory</text><text x="110" y="52" font-size="9.5" fill="#6366f1">context state</text>
-    <rect x="20"  y="75" width="180" height="40" rx="8" fill="#fff7ed" stroke="#fb923c"/><text x="110" y="92">Episodic</text><text x="110" y="107" font-size="9.5" fill="#c2410c">event log</text>
-    <rect x="20"  y="130" width="180" height="40" rx="8" fill="#eff6ff" stroke="#3b82f6"/><text x="110" y="147">Semantic</text><text x="110" y="162" font-size="9.5" fill="#1d4ed8">knowledge graph</text>
-    <rect x="20"  y="185" width="180" height="40" rx="8" fill="#f0fdf4" stroke="#22c55e"/><text x="110" y="202">Procedural</text><text x="110" y="217" font-size="9.5" fill="#15803d">workflow / skill</text>
-
-    <rect x="520" y="20" width="360" height="40" rx="8" fill="#f8fafc" stroke="#94a3b8"/><text x="700" y="44">Cortexpod agent workspace (scoped session)</text>
-    <rect x="520" y="75" width="360" height="40" rx="8" fill="#f8fafc" stroke="#94a3b8"/><text x="700" y="99">Lob transaction log (append-only, timestamped)</text>
-    <rect x="520" y="130" width="360" height="40" rx="8" fill="#f8fafc" stroke="#94a3b8"/><text x="700" y="154">Document graph + metadata (world model)</text>
-    <rect x="520" y="185" width="360" height="40" rx="8" fill="#f8fafc" stroke="#94a3b8"/><text x="700" y="209">MarkdownWorkflow templates + Skill layer</text>
-  </g>
-  <g stroke="#6366f1" stroke-width="1.6" marker-end="url(#arSub)">
-    <line x1="200" y1="40"  x2="518" y2="40"/>
-    <line x1="200" y1="95"  x2="518" y2="95"/>
-    <line x1="200" y1="150" x2="518" y2="150"/>
-    <line x1="200" y1="205" x2="518" y2="205"/>
-  </g>
-</svg>
+<img src="./diagrams/memory-substrate.svg" class="w-full max-h-[220px] object-contain" alt="memory-substrate" />
 </div>
 
 <div class="mt-2 text-center text-sm opacity-70">Structured · versioned · auditable → memory không "tan" khi phiên chat kết thúc.</div>
@@ -1834,35 +1544,7 @@ layout: default
 # Platform roadmap
 
 <div class="flex justify-center mt-6">
-<svg viewBox="0 0 920 220" class="w-full max-h-[220px]" font-family="ui-sans-serif, system-ui">
-  <line x1="40" y1="110" x2="880" y2="110" stroke="#cbd5e1" stroke-width="3"/>
-  <g font-size="10.5" text-anchor="middle">
-    <g>
-      <circle cx="90" cy="110" r="9" fill="#6366f1"/><text x="90" y="80" font-weight="700">Phase 1</text>
-      <text x="90" y="140">MarkdownDoc</text><text x="90" y="154" fill="#64748b">AST · version</text>
-    </g>
-    <g>
-      <circle cx="230" cy="110" r="9" fill="#6366f1"/><text x="230" y="80" font-weight="700">Phase 2</text>
-      <text x="230" y="140">Cortexpod</text><text x="230" y="154" fill="#64748b">repo · proposal</text>
-    </g>
-    <g>
-      <circle cx="370" cy="110" r="9" fill="#8b5cf6"/><text x="370" y="80" font-weight="700">Phase 3</text>
-      <text x="370" y="140">MarkdownSlide</text><text x="370" y="154" fill="#64748b">generation</text>
-    </g>
-    <g>
-      <circle cx="510" cy="110" r="9" fill="#8b5cf6"/><text x="510" y="80" font-weight="700">Phase 4</text>
-      <text x="510" y="140">MarkdownSheet</text><text x="510" y="154" fill="#64748b">workflow tables</text>
-    </g>
-    <g>
-      <circle cx="650" cy="110" r="9" fill="#14b8a6"/><text x="650" y="80" font-weight="700">Phase 5</text>
-      <text x="650" y="140">Document graph</text><text x="650" y="154" fill="#64748b">+ automation</text>
-    </g>
-    <g>
-      <circle cx="810" cy="110" r="9" fill="#22c55e"/><text x="810" y="80" font-weight="700">Phase 6</text>
-      <text x="810" y="140">Enterprise</text><text x="810" y="154" fill="#64748b">permission · audit</text>
-    </g>
-  </g>
-</svg>
+<img src="./diagrams/roadmap.svg" class="w-full max-h-[220px] object-contain" alt="roadmap" />
 </div>
 
 <div class="mt-3 text-center text-sm opacity-70">Wedge nhỏ giá trị cao → mở rộng thành full enterprise document monorepo, không vỡ kiến trúc.</div>
