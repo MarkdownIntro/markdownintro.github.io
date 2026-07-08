@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: geist
 background: https://cover.sli.dev
 title: MarkdownOffice — AI-native Document Operating System for Enterprise Knowledge
 info: |
