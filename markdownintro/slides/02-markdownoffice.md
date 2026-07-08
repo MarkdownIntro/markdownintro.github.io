@@ -124,7 +124,7 @@ status: active
 
 <div class="flex flex-col items-center justify-center h-full gap-3">
 <!-- <img src="/images/MarkdownDoc.jpg" class="max-h-[230px] w-auto rounded-lg shadow-xl" alt="MarkdownDoc" /> -->
-<img src="/images/Doc%20Poster.png" class="max-h-[160px] w-auto rounded-lg shadow-lg" alt="Doc Poster" />
+<img src="/images/Doc%20Poster.png" class="w-auto rounded-lg shadow-lg" alt="Doc Poster" />
 </div>
 
 <!--
@@ -163,7 +163,7 @@ Không clone toàn bộ Excel ngay. Bắt đầu từ <b>workflow data</b>: stat
 
 <div class="flex flex-col items-center justify-center h-full gap-3">
 <!-- <img src="/images/MarkdownSheet.png" class="max-h-[230px] w-auto rounded-lg shadow-xl" alt="MarkdownSheet" /> -->
-<img src="/images/Sheet%20Poster.png" class="max-h-[160px] w-auto rounded-lg shadow-lg" alt="Sheet Poster" />
+<img src="/images/Sheet%20Poster.png" class="w-auto rounded-lg shadow-lg" alt="Sheet Poster" />
 </div>
 
 <!--
@@ -196,7 +196,7 @@ Deck được <b>generate từ report + sheet + document graph</b> - không còn
 
 <div class="flex flex-col items-center justify-center h-full gap-3">
 <!-- <img src="/images/MarkdownSlide.png" class="max-h-[230px] w-auto rounded-lg shadow-xl" alt="MarkdownSlide" /> -->
-<img src="/images/Slide%20Poster.png" class="max-h-[160px] w-auto rounded-lg shadow-lg" alt="Slide Poster" />
+<img src="/images/Slide%20Poster.png" class="w-auto rounded-lg shadow-lg" alt="Slide Poster" />
 </div>
 
 <!--
