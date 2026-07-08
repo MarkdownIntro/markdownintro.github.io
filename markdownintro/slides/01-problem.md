@@ -2,14 +2,14 @@
 layout: section
 ---
 
-# 1 · Nỗi đau tài liệu doanh nghiệp
+# 1 · "Pain point" của Enterprise document
 Fragmented knowledge - con người mệt mỏi, AI Agent thất bại
 
 ---
 layout: default
 ---
 
-# Doanh nghiệp không thiếu tài liệu - thiếu hệ điều hành cho tài liệu
+# Dữ liệu của doanh nghiệp bị phân mảnh
 
 Cùng một sự thật vận hành bị chia nhỏ và sao chép qua hàng chục công cụ, không có <b>canonical source of truth</b>.
 
@@ -140,9 +140,9 @@ layout: default
 layout: default
 ---
 
-# Trạng thái mong muốn: enterprise document monorepo
+# Enterprise document monorepo
 
-Một cây tri thức duy nhất - có cấu trúc, có version, có graph, có audit - để người và Agent cùng vận hành.
+Một cây tri thức duy nhất: Có cấu trúc, có version, có graph, có audit - để người và Agent cùng vận hành.
 
 <div class="flex justify-center mt-4">
 <img src="../diagrams/document-monorepo.svg" class="w-full max-h-[330px] object-contain" alt="document-monorepo" />

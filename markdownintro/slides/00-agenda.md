@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Deck này trả lời điều gì?
+# Nội dung trình bày
 
 <div class="grid grid-cols-2 gap-4 mt-8 text-sm">
 

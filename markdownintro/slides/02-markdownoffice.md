@@ -14,7 +14,8 @@ layoutClass: gap-6
 
 <div class="mt-4 text-sm">
 
-Không phải Markdown editor. Đây là <b>hệ điều hành tài liệu</b> cho doanh nghiệp:
+<!-- Không phải Markdown editor. Đây là <b>hệ điều hành tài liệu</b> cho doanh nghiệp: -->
+MarkdownOffice là một markdown editor tập trung vào <b>structured · versioned · auditable · machine-readable</b> knowledge - để con người và AI Agent cùng tạo, review, version và tự động hóa.
 
 - Tài liệu là <b>structured data</b>, không phải file cô lập
 - <b>Markdown-native</b> làm source of truth, có thể diff/parse/validate
@@ -30,7 +31,7 @@ Không phải Markdown editor. Đây là <b>hệ điều hành tài liệu</b> c
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/images/MarkdownOffice.png" class="max-h-[420px] w-auto rounded-xl shadow-2xl" alt="MarkdownOffice" />
+<img src="/images/MarkdownOffice UI.png" class="w-auto rounded-xl shadow-2xl" alt="MarkdownOffice" />
 </div>
 
 <!--
