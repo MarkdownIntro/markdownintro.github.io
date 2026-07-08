@@ -6,6 +6,7 @@
       "name": "markdownintro",
       "dependencies": {
         "@slidev/cli": "^52.16.0",
+        "@slidev/theme-apple-basic": "^0.25.1",
         "@slidev/theme-default": "latest",
         "@slidev/theme-seriph": "latest",
         "slidev-theme-geist": "^0.8.1",
@@ -257,6 +258,8 @@
     "@slidev/parser": ["@slidev/parser@52.16.0", "https://registry.npmmirror.com/@slidev/parser/-/parser-52.16.0.tgz", { "dependencies": { "@antfu/utils": "^9.3.0", "@slidev/types": "52.16.0", "yaml": "^2.9.0" } }, "sha512-xJuaFXmWwBbvSnQ0Zu4r9pk12sV3CAmHBUzkMLAiyYDPcQpgo7rNPUsy2y216E6U0YexuZyBlkTRmJD1GAaXTg=="],
 
     "@slidev/rough-notation": ["@slidev/rough-notation@0.1.0", "https://registry.npmmirror.com/@slidev/rough-notation/-/rough-notation-0.1.0.tgz", { "dependencies": { "roughjs": "^4.6.6" } }, "sha512-a/CbVmjuoO3E4JbUr2HOTsXndbcrdLWOM+ajbSQIY3gmLFzhjeXHGksGcp1NZ08pJjLZyTCxfz1C7v/ltJqycA=="],
+
+    "@slidev/theme-apple-basic": ["@slidev/theme-apple-basic@0.25.1", "https://registry.npmmirror.com/@slidev/theme-apple-basic/-/theme-apple-basic-0.25.1.tgz", { "dependencies": { "@slidev/types": "^0.47.0", "codemirror-theme-vars": "^0.1.2", "prism-theme-vars": "^0.2.4" } }, "sha512-saA5yYui+jTT13tP+QJKnWeM8sK0IA1iln2E3sWAJsfKdQHUD3fw8+AlUHLUH6yc8NPq3ewtZcwWx49a/iF8Tg=="],
 
     "@slidev/theme-default": ["@slidev/theme-default@0.25.0", "https://registry.npmmirror.com/@slidev/theme-default/-/theme-default-0.25.0.tgz", { "dependencies": { "@slidev/types": "^0.47.0", "codemirror-theme-vars": "^0.1.2", "prism-theme-vars": "^0.2.4" } }, "sha512-iWvthH1Ny+i6gTwRnEeeU+EiqsHC56UdEO45bqLSNmymRAOWkKUJ/M0o7iahLzHSXsiPu71B7C715WxqjXk2hw=="],
 
@@ -1315,6 +1318,8 @@
     "@oxc-parser/binding-wasm32-wasi/@emnapi/runtime": ["@emnapi/runtime@1.10.0", "https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.10.0.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA=="],
 
     "@quansync/fs/quansync": ["quansync@1.0.0", "https://registry.npmmirror.com/quansync/-/quansync-1.0.0.tgz", {}, "sha512-5xZacEEufv3HSTPQuchrvV6soaiACMFnq1H8wkVioctoH3TRha9Sz66lOxRwPK/qZj7HPiSveih9yAyh98gvqA=="],
+
+    "@slidev/theme-apple-basic/@slidev/types": ["@slidev/types@0.47.5", "https://registry.npmmirror.com/@slidev/types/-/types-0.47.5.tgz", {}, "sha512-X67V4cCgM0Sz50bP8GbVzmiL8DHC2IXvdKcsN7DlxHyf+/T4d9GveeGukwha5Fx3MuYeGZWKag7TFL2ZY4w54A=="],
 
     "@slidev/theme-default/@slidev/types": ["@slidev/types@0.47.5", "https://registry.npmmirror.com/@slidev/types/-/types-0.47.5.tgz", {}, "sha512-X67V4cCgM0Sz50bP8GbVzmiL8DHC2IXvdKcsN7DlxHyf+/T4d9GveeGukwha5Fx3MuYeGZWKag7TFL2ZY4w54A=="],
 

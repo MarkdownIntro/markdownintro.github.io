@@ -1,5 +1,5 @@
 ---
-theme: geist
+theme: apple-basic
 background: https://cover.sli.dev
 title: MarkdownOffice — AI-native Document Operating System for Enterprise Knowledge
 info: |
