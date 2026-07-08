@@ -32,7 +32,7 @@ Khác biệt giữa "clever demo" và "dependable product" nằm ở <b>harness<
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/content/0.%20Resoning%20Engine.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Reasoning Engine" />
+<img src="/content/0.%20Resoning%20Engine.png" class="w-auto rounded-lg" alt="Reasoning Engine" />
 </div>
 
 <!--
@@ -117,7 +117,7 @@ Không phải "system prompt dài". Là <b>policy layer</b> có thứ bậc đ�
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/content/1.%20Instructions.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Instructions" />
+<img src="/content/1.%20Instructions.png" class="w-auto rounded-lg" alt="Instructions" />
 </div>
 
 <!--
@@ -151,7 +151,7 @@ Thiếu context → hallucination · Thừa context → "lost in the middle".
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/content/2.%20Context%20Delivery.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Context Delivery" />
+<img src="/content/2.%20Context%20Delivery.png" class="w-auto rounded-lg" alt="Context Delivery" />
 </div>
 
 ---
@@ -181,7 +181,7 @@ Agent dài hạn dễ: quên mục tiêu · lặp hành động · gọi tool th
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/content/3.%20Context%20Management.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Context Management" />
+<img src="/content/3.%20Context%20Management.png" class="w-auto rounded-lg" alt="Context Management" />
 </div>
 
 ---
@@ -190,26 +190,30 @@ layout: default
 
 # Tool-use & execution environment
 
-<div class="grid grid-cols-2 gap-5 mt-2">
-
 <div class="flex flex-col items-center">
-<img src="/content/4.%20Tool%20Interface.png" class="max-h-[210px] w-auto rounded-lg shadow-lg" alt="Tool Interface" />
-<div class="mt-2 text-xs text-center">
+<img src="/content/4.%20Tool%20Interface.png" class=" w-full" alt="Tool Interface" />
+<!-- <div class="mt-2 text-xs text-center">
 <b>Tool Interface</b> - typed schema · validate input · structured output · <b>tách read/write</b> · human confirm cho irreversible
-</div>
+</div> -->
 </div>
 
-<div class="flex flex-col items-center">
-<img src="/content/5.%20Execution%20Environment.png" class="max-h-[210px] w-auto rounded-lg shadow-lg" alt="Execution Environment" />
+<!-- <div class="mt-3 p-2 rounded-lg border-l-4 border-rose-500 bg-rose-50 dark:bg-rose-900/20 text-xs">
+Nguyên tắc: agent production-grade <b>không hành động trực tiếp trên production</b> nếu thiếu guardrail. Chạy trên staging/bản sao, chỉ chạm production sau verification + human approval.
+</div> -->
+
+
+---
+layout: default
+---
+
+# Agent execution environment
+
+
+<div class="flex flex-col items-center w-full">
+<img src="/content/5.%20Execution%20Environment.png" class=" w-auto" alt="Execution Environment" />
 <div class="mt-2 text-xs text-center">
 <b>Execution Env</b> - sandbox · permission boundary · secret mgmt · resource quota · deterministic replay
 </div>
-</div>
-
-</div>
-
-<div class="mt-3 p-2 rounded-lg border-l-4 border-rose-500 bg-rose-50 dark:bg-rose-900/20 text-xs">
-Nguyên tắc: agent production-grade <b>không hành động trực tiếp trên production</b> nếu thiếu guardrail. Chạy trên staging/bản sao, chỉ chạm production sau verification + human approval.
 </div>
 
 <!--
@@ -249,7 +253,7 @@ Nhờ durable state: resume sau lỗi · audit quyết định · rollback · ch
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/content/6.%20Durable%20State.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Durable State" />
+<img src="/content/6.%20Durable%20State.png" class="w-auto rounded-lg" alt="Durable State" />
 </div>
 
 <div class="text-xs opacity-60 mt-1 text-center">→ Lob chính là durable + versioned state store cho document.</div>
@@ -279,7 +283,7 @@ layoutClass: gap-6
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/content/8.%20Subagents.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Subagents" />
+<img src="/content/8.%20Subagents.png" class="w-auto rounded-lg" alt="Subagents" />
 </div>
 
 <!--
@@ -314,7 +318,7 @@ Skill giảm hallucination: checklist rõ · output chuẩn · known failure mod
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/content/9.%20Skills%20%26%20Procedures.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Skills & Procedures" />
+<img src="/content/9.%20Skills%20%26%20Procedures.png" class="w-auto rounded-lg" alt="Skills & Procedures" />
 </div>
 
 <!--
@@ -348,7 +352,7 @@ Deterministic check (schema/type/lint) cho việc máy kiểm được · human 
 ::right::
 
 <div class="flex items-center justify-center h-full">
-<img src="/content/10.%20Verification%20%26%20Observability.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Verification & Observability" />
+<img src="/content/10.%20Verification%20%26%20Observability.png" class="w-auto rounded-lg" alt="Verification & Observability" />
 </div>
 
 <!--
