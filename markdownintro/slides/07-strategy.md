@@ -177,15 +177,14 @@ Tương lai của tài liệu doanh nghiệp là <b>structured · versioned · A
 
 <div class="mt-6 flex justify-center">
 <div class="inline-block text-sm">
-
-| Before             | After                         |
-| ------------------ | ----------------------------- |
-| Scattered files    | Centralized document monorepo |
-| Manual copy-paste  | Graph-driven generation       |
-| Weak versioning    | Lob-backed transactions       |
-| Human-only editing | Human + Agent collaboration   |
-| Static slide       | Source-linked presentation    |
-| Unclear audit      | Full traceability             |
+| Trước đây               | Sau MarkdownOffice                    |
+| ----------------------- | ------------------------------------- |
+| Tệp tài liệu phân tán   | Monorepo tài liệu tập trung           |
+| Sao chép thủ công       | Sinh nội dung dựa trên document graph |
+| Quản lý phiên bản yếu   | Giao dịch được bảo chứng bởi Lob      |
+| Chỉ con người chỉnh sửa | Cộng tác giữa con người và Agent      |
+| Slide tĩnh              | Bài thuyết trình liên kết với nguồn   |
+| Kiểm toán không rõ ràng | Truy vết đầy đủ toàn bộ thay đổi      |
 
 </div>
 </div>
