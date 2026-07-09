@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" font-family="ui-sans-serif, system-ui">
+  <defs>
+    <marker id="arGraph" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/></marker>
+  </defs>
+  <g stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arGraph)">
+    <line x1="220" y1="125" x2="60" y2="45"/>
+    <line x1="220" y1="125" x2="60" y2="125"/>
+    <line x1="220" y1="125" x2="60" y2="205"/>
+    <line x1="290" y1="110" x2="440" y2="45"/>
+    <line x1="290" y1="125" x2="440" y2="125"/>
+    <line x1="290" y1="140" x2="440" y2="205"/>
+    <line x1="510" y1="45" x2="660" y2="45"/>
+    <line x1="510" y1="205" x2="660" y2="205"/>
+  </g>
+  <g font-size="11" text-anchor="middle">
+    <rect x="205" y="105" width="90" height="42" rx="10" fill="#4f46e5"/><text x="250" y="122" fill="#fff" font-weight="700">Service</text><text x="250" y="137" fill="#c7d2fe" font-size="9">ownership.mdoc</text>
+
+    <rect x="0"   y="24" width="120" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="60" y="45">Architecture</text>
+    <rect x="0"   y="108" width="120" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="60" y="129">Runbook</text>
+    <rect x="0"   y="188" width="120" height="34" rx="8" fill="#eef2ff" stroke="#6366f1"/><text x="60" y="209">Incident history</text>
+
+    <rect x="440" y="24" width="120" height="34" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="500" y="45">SLA doc</text>
+    <rect x="440" y="108" width="120" height="34" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="500" y="129">Ownership sheet</text>
+    <rect x="440" y="188" width="120" height="34" rx="8" fill="#f0fdfa" stroke="#14b8a6"/><text x="500" y="209">Monitoring</text>
+
+    <rect x="660" y="24" width="130" height="34" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="725" y="45">Handover slide</text>
+    <rect x="660" y="188" width="130" height="34" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="725" y="209">Dashboard</text>
+  </g>
+</svg>
