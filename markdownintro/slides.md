@@ -50,7 +50,7 @@ src: ./slides/03-demo.md
 ---
 
 ---
-src: ./slides/04-harness.md
+src: ./slides/04-agent.md
 ---
 
 ---
@@ -58,5 +58,9 @@ src: ./slides/05-memory.md
 ---
 
 ---
-src: ./slides/06-strategy.md
+src: ./slides/06-harness.md
+---
+
+---
+src: ./slides/07-strategy.md
 ---

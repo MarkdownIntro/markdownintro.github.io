@@ -1,5 +1,5 @@
 
-## Phần 1 — A đến D
+## Phần 1 - A đến D
 
 Bản phân tích này bám theo định vị cốt lõi của MarkdownOffice: Markdown là source of truth, tài liệu được parse thành AST, document là graph thay vì file cô lập, AI Agent có thể tương tác an toàn, và mọi thay đổi đều versioned/auditable. 
 
@@ -484,7 +484,7 @@ Tổng thể có thể định nghĩa:
 
 ---
 
-# Phần 2 — E đến F
+# Phần 2 - E đến F
 
 Phần này tập trung vào kiến trúc hệ thống và ba sản phẩm lõi: **MarkdownDoc, MarkdownSlide, MarkdownSheet**. Trọng tâm là cách MarkdownOffice biến Markdown từ “format viết tài liệu” thành **nền tảng dữ liệu vận hành cho enterprise knowledge và AI Agent**. Kiến trúc này nhất quán với master document của MarkdownOffice: Markdown là source of truth, AST là representation trung tâm, document là graph, hệ thống có collaboration, version control, automation, agent layer và audit/compliance. 
 
@@ -784,7 +784,7 @@ Khác với Google Docs chỉ tập trung vào live editing, MarkdownOffice cầ
 
 ---
 
-## E8. Version Management Layer — Lob
+## E8. Version Management Layer - Lob
 
 Lob là lớp version management cho MarkdownOffice.
 
@@ -1628,7 +1628,7 @@ Permission + Audit + Compliance
 
 ---
 
-# Phần 3 — G đến H
+# Phần 3 - G đến H
 
 Phần này phân tích cách **Cortexpod** và **Lob Version Management** trở thành hạ tầng nền cho MarkdownOffice, sau đó đi sâu vào use case **employee handover** như một ví dụ có thể dùng trực tiếp trong slide báo cáo. Các thành phần này bám theo nguyên tắc lõi của MarkdownOffice: document có cấu trúc, có graph, có agent transaction, có version history, có audit và có workflow automation. 
 
@@ -2152,7 +2152,7 @@ Team Knowledge Health
 
 ---
 
-# H. Agent Workflow Example — Employee Handover
+# H. Agent Workflow Example - Employee Handover
 
 ## H1. Vì sao employee handover là use case rất mạnh
 
@@ -2244,7 +2244,7 @@ Track completion and stale data
 
 ---
 
-## H4. Step 1 — Permission-aware knowledge scan
+## H4. Step 1 - Permission-aware knowledge scan
 
 Agent bắt đầu bằng việc scan tri thức theo permission.
 
@@ -2290,7 +2290,7 @@ Slide message:
 
 ---
 
-## H5. Step 2 — Build service ownership map
+## H5. Step 2 - Build service ownership map
 
 Sau khi scan, Agent xây dựng service ownership map.
 
@@ -2335,7 +2335,7 @@ Slide message:
 
 ---
 
-## H6. Step 3 — Generate MarkdownSheet transfer matrix
+## H6. Step 3 - Generate MarkdownSheet transfer matrix
 
 Agent tạo một MarkdownSheet cho transfer workflow.
 
@@ -2385,7 +2385,7 @@ Giá trị:
 
 ---
 
-## H7. Step 4 — Generate MarkdownDoc handover report
+## H7. Step 4 - Generate MarkdownDoc handover report
 
 Agent tạo MarkdownDoc handover report.
 
@@ -2431,7 +2431,7 @@ Slide message:
 
 ---
 
-## H8. Step 5 — Generate MarkdownSlide handover presentation
+## H8. Step 5 - Generate MarkdownSlide handover presentation
 
 Agent tạo MarkdownSlide deck cho buổi handover meeting.
 
@@ -2484,7 +2484,7 @@ Slide message:
 
 ---
 
-## H9. Step 6 — Generate calculation sheet
+## H9. Step 6 - Generate calculation sheet
 
 Agent tạo thêm calculation sheet để lên kế hoạch chuyển giao.
 
@@ -2531,7 +2531,7 @@ Giá trị:
 
 ---
 
-## H10. Step 7 — Validation
+## H10. Step 7 - Validation
 
 Trước khi mở proposal, Agent cần validate output.
 
@@ -2582,7 +2582,7 @@ Validation Summary
 
 ---
 
-## H11. Step 8 — Open Agent proposal
+## H11. Step 8 - Open Agent proposal
 
 Agent mở proposal trong Cortexpod.
 
@@ -2638,7 +2638,7 @@ Nó cho phép reviewer:
 
 ---
 
-## H12. Step 9 — Review and approval
+## H12. Step 9 - Review and approval
 
 Human review là bước bắt buộc trong enterprise.
 
@@ -2676,7 +2676,7 @@ Agent có thể tạo revision mới trong cùng proposal.
 
 ---
 
-## H13. Step 10 — Commit to Lob
+## H13. Step 10 - Commit to Lob
 
 Sau khi được approve, thay đổi được commit vào Lob.
 
@@ -2719,7 +2719,7 @@ Sau commit:
 
 ---
 
-## H14. Step 11 — Present via MarkdownSlide
+## H14. Step 11 - Present via MarkdownSlide
 
 Team mở MarkdownSlide bằng PowerPoint-like viewer để trình bày.
 
@@ -2745,7 +2745,7 @@ Presentation không còn là endpoint tĩnh. Nó trở thành một phần của
 
 ---
 
-## H15. Step 12 — Track completion after meeting
+## H15. Step 12 - Track completion after meeting
 
 Sau buổi handover, MarkdownOffice tiếp tục track tiến độ:
 

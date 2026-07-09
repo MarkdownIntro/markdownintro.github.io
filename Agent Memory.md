@@ -1,6 +1,6 @@
-# Agent Memory — bộ nhớ của AI Agent
+# Agent Memory - bộ nhớ của AI Agent
 
-## 1. Working Memory — bộ nhớ làm việc
+## 1. Working Memory - bộ nhớ làm việc
 
 **Trong não:**
 Working memory là bộ nhớ ngắn hạn dùng để giữ thông tin đang xử lý ngay lúc này. Ví dụ: bạn đang đọc một đoạn code, giữ trong đầu tên biến, logic hàm, mục tiêu sửa bug.
@@ -48,7 +48,7 @@ drop irrelevant context
 promote important info to long-term memory
 ```
 
-## 2. Episodic Memory — bộ nhớ sự kiện / trải nghiệm
+## 2. Episodic Memory - bộ nhớ sự kiện / trải nghiệm
 
 **Trong não:**
 Episodic memory là ký ức về các sự kiện cụ thể: chuyện gì đã xảy ra, khi nào, ở đâu, với ai, trong ngữ cảnh nào.
@@ -116,7 +116,7 @@ User interaction
 | Learning from experience | Nhận ra workflow nào hiệu quả |
 | Auditability             | Có log giải thích quyết định  |
 
-## 3. Semantic Memory — bộ nhớ tri thức / khái niệm
+## 3. Semantic Memory - bộ nhớ tri thức / khái niệm
 
 **Trong não:**
 Semantic memory là kiến thức tổng quát, không nhất thiết gắn với một sự kiện cụ thể.
@@ -194,7 +194,7 @@ MarkdownOffice
 
 Đây là semantic structure, không chỉ là lịch sử chat.
 
-## 4. Procedural Memory — bộ nhớ kỹ năng / quy trình
+## 4. Procedural Memory - bộ nhớ kỹ năng / quy trình
 
 **Trong não:**
 Procedural memory là bộ nhớ về cách làm một việc. Ví dụ:

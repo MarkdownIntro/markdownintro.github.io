@@ -2,7 +2,7 @@
 layout: section
 ---
 
-# 6 · Product strategy
+# 7 · Product strategy
 Wedge · GTM · roadmap · platform vision
 
 ---
@@ -104,8 +104,7 @@ layout: default
 <div class="mt-3 text-center text-sm opacity-70">Wedge nhỏ giá trị cao → mở rộng thành full enterprise document monorepo, không vỡ kiến trúc.</div>
 
 ---
-layout: two-cols
-layoutClass: gap-6
+layout: default
 ---
 
 # The ratchet loop - harness evolution
@@ -128,42 +127,10 @@ Từ <b>demo agent</b> → <b>production agent</b> là khoảng cách của cả
 
 </div>
 
-::right::
-
-<div class="flex items-center justify-center h-full">
-<img src="/content/12.%20The%20Ratchet%20Loop%20-%20Harness%20Evolution.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Ratchet Loop" />
-</div>
 
 <!--
 Mỗi lần agent lỗi → thêm một guardrail vào harness → không bao giờ lùi lại. Đó là ratchet.
 -->
-
----
-layout: two-cols
-layoutClass: gap-6
----
-
-# Diagnostic matrix - debug theo layer
-
-<div class="text-sm mt-2">
-
-Khi agent lỗi trong production, câu hỏi đầu tiên: <b>"lỗi này thuộc layer nào?"</b> - không mặc định đổ lỗi cho model.
-
-<div class="mt-2 flex flex-col gap-1 text-xs">
-<div class="px-2 py-1 rounded bg-slate-100 dark:bg-slate-800">Instruction conflict → Instruction layer</div>
-<div class="px-2 py-1 rounded bg-slate-100 dark:bg-slate-800">Hallucination → Context / Verification</div>
-<div class="px-2 py-1 rounded bg-slate-100 dark:bg-slate-800">Sai tham số tool → Tool router</div>
-<div class="px-2 py-1 rounded bg-slate-100 dark:bg-slate-800">Side effect nguy hiểm → Execution env</div>
-<div class="px-2 py-1 rounded bg-slate-100 dark:bg-slate-800">Mất tiến trình → Durable state</div>
-</div>
-
-</div>
-
-::right::
-
-<div class="flex items-center justify-center h-full">
-<img src="/content/13.%20The%20Practical%20Diagnostic%20Matrix.png" class="max-h-[400px] w-auto rounded-lg shadow-xl" alt="Diagnostic Matrix" />
-</div>
 
 ---
 layout: default
@@ -175,8 +142,13 @@ layout: default
 Tương lai của tài liệu doanh nghiệp là <b>structured · versioned · Agent-native</b> - nơi con người và AI Agent cùng tạo, review, version, trình bày và tự động hóa.
 </div>
 
-<div class="mt-6 flex justify-center">
+<!-- <div class="mt-6 flex justify-center">
 <div class="inline-block text-sm">
+
+</div>
+</div> -->
+
+
 | Trước đây               | Sau MarkdownOffice                    |
 | ----------------------- | ------------------------------------- |
 | Tệp tài liệu phân tán   | Monorepo tài liệu tập trung           |
@@ -186,10 +158,7 @@ Tương lai của tài liệu doanh nghiệp là <b>structured · versioned · A
 | Slide tĩnh              | Bài thuyết trình liên kết với nguồn   |
 | Kiểm toán không rõ ràng | Truy vết đầy đủ toàn bộ thay đổi      |
 
-</div>
-</div>
-
-<div class="mt-5 text-center">
+<div class="text-center">
 <span class="text-xl font-bold">GitHub for enterprise documents. Microsoft Office for AI Agents.</span>
 </div>
 

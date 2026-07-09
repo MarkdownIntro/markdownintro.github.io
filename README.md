@@ -2007,7 +2007,7 @@ Instruction hierarchy
 
 Harness Engineering là bước tiến hóa quan trọng của AI engineering.
 
-Trong giai đoạn đầu của LLM, prompt engineering đủ để tạo ra các demo ấn tượng. Nhưng khi AI đi vào workflow thật — viết code, xử lý tài liệu doanh nghiệp, gọi API, vận hành hạ tầng, phân tích dữ liệu, tạo báo cáo, hỗ trợ khách hàng, tự động hóa tác vụ — thì prompt không còn đủ. Cần một lớp hệ thống bao quanh model để kiểm soát context, hành động, state, tool, runtime, verification và observability.
+Trong giai đoạn đầu của LLM, prompt engineering đủ để tạo ra các demo ấn tượng. Nhưng khi AI đi vào workflow thật - viết code, xử lý tài liệu doanh nghiệp, gọi API, vận hành hạ tầng, phân tích dữ liệu, tạo báo cáo, hỗ trợ khách hàng, tự động hóa tác vụ - thì prompt không còn đủ. Cần một lớp hệ thống bao quanh model để kiểm soát context, hành động, state, tool, runtime, verification và observability.
 
 Thông điệp cốt lõi:
 
