@@ -1,8 +1,8 @@
 ---
 theme: seriph
-background: /images/background.png
+background: /logo/background.png
 layout: image
-image: /images/background.png
+image: /logo/background.png
 backgroundSize: contain
 title: "MarkdownOffice: LLM-first, markdown-native document agent cho enterprise monorepo"
 info: |
